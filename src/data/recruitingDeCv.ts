@@ -30,6 +30,13 @@ export type SkillGroup = {
   items: string[];
 };
 
+export type SidebarSectionKey = "personal" | "contact" | "skills" | "languages";
+
+export type SidebarSectionConfig = {
+  key: SidebarSectionKey;
+  allowPageBreak?: boolean;
+};
+
 export type CvProfile = {
   name: string;
   title: string;
@@ -42,6 +49,7 @@ export type CvProfile = {
   skills: SkillGroup[];
   experiences: TimelineItem[];
   education: TimelineItem[];
+  sidebarSections?: SidebarSectionConfig[];
 };
 
 export const recruitingDeCv: CvProfile = {
@@ -64,6 +72,12 @@ export const recruitingDeCv: CvProfile = {
     { language: "Deutsch", level: "Muttersprache" },
     { language: "Englisch", level: "Fliessend" },
     { language: "Russisch", level: "Fliessend" },
+  ],
+  sidebarSections: [
+    { key: "personal" },
+    { key: "contact" },
+    { key: "skills", allowPageBreak: true },
+    { key: "languages", allowPageBreak: true },
   ],
   skills: [
     {
