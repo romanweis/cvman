@@ -42,7 +42,6 @@ export type CvProfile = {
   skills: SkillGroup[];
   experiences: TimelineItem[];
   education: TimelineItem[];
-  interests: string[];
 };
 
 export const recruitingDeCv: CvProfile = {
@@ -72,28 +71,67 @@ export const recruitingDeCv: CvProfile = {
       items: ["C#", "TypeScript", "Java", "Python"],
     },
     {
-      name: "Datenbanken",
-      items: ["MS SQL Server", "PostgreSQL", "RavenDB", "MongoDB"],
+      name: "Architektur & Engineering",
+      items: [
+        "DDD, modulare Systeme, Microservices",
+        "Skalierbarkeit, Testbarkeit, Performance/Resilienz",
+      ],
     },
     {
-      name: "API",
-      items: ["REST", "GraphQL", "gRPC"],
+      name: "Daten & Persistenz",
+      items: [
+        "SQL/NoSQL, tragfähige Datenmodelle",
+        "Transaktionen/Konsistenz, Caching, Event Sourcing/Streaming",
+      ],
     },
     {
-      name: "AI Technologien",
-      items: ["MCP Server", "Semantic Kernel", "GitHub Copilot"],
+      name: "APIs & Integration",
+      items: [
+        "API-First, Contract-driven",
+        "REST/GraphQL/gRPC; Versionierung, AuthN/AuthZ, SLAs",
+      ],
+    },
+    {
+      name: "KI-gestützte Entwicklung",
+      items: [
+        "KI in Dev-Workflows & Softwarelieferung",
+        "RAG/Tool-Orchestrierung, Qualität & Governance",
+      ],
     },
     {
       name: "Frontend",
-      items: ["React", "Angular", "Blazor"],
+      items: [
+        "Design Systems, Komponenten, State-Management",
+        "Performance, Accessibility, SSR/Micro-Frontends",
+      ],
     },
     {
-      name: "Cloud & Infrastruktur",
-      items: ["GCP", "Azure", "AWS", "Hetzner", "Docker", "Kubernetes"],
+      name: "Cloud & Plattform",
+      items: [
+        "Multi-Cloud (Azure/AWS/GCP/Hetzner)",
+        "Kubernetes/Service Mesh; IaC & GitOps",
+      ],
     },
     {
-      name: "CI/CD & Automation",
-      items: ["Azure DevOps", "TeamCity", "Octopus Deploy", "GitHub Actions"],
+      name: "DevOps & Reliability",
+      items: [
+        "CI/CD, Release-Strategien (Blue-Green/Canary)",
+        "Testautomatisierung, SRE (SLIs/SLOs, Incident Response)",
+      ],
+    },
+    {
+      name: "Observability",
+      items: [
+        "Tracing/Logging/Metrics (OpenTelemetry)",
+        "Proaktive Überwachung, Runbooks & Postmortems",
+      ],
+    },
+    {
+      name: "Security & Compliance",
+      items: [
+        "Zero Trust, Secrets-Management, Policies as Code",
+        "Supply-Chain-Security (SBOM/SLSA), Datenschutz",
+      ],
     },
   ],
   experiences: [
@@ -222,10 +260,5 @@ export const recruitingDeCv: CvProfile = {
         "Domain-Driven Design Workshop mit Vaughn Vernon, 09/2018",
       ],
     },
-  ],
-  interests: [
-    "Coaching & Mentoring von Softwareentwickler:innen",
-    "Schach (Clubspieler)",
-    "Vater von zwei Kindern",
   ],
 };

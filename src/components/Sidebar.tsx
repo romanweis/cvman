@@ -76,12 +76,6 @@ export function Sidebar({ profile }: { profile: CvProfile }) {
           ))}
         </div>
       </SectionContainer>
-
-      <SectionContainer title="Engagement & Interessen">
-        <p className="text-[11px] leading-snug text-slate-600">
-          {profile.interests.join(" · ")}
-        </p>
-      </SectionContainer>
     </aside>
   );
 }
