@@ -1,106 +1,129 @@
 # Lebenslauf – Roman Weis
 
 **Ziel**  
-Vermittlungsfähige Positionen als Senior Software Engineer / Tech Lead mit Fokus auf moderne Web- und Cloud-Technologien.
+Vermittlungsfähige Mandate als Software Architect & Fullstack Engineer mit Fokus auf .NET, Cloud-Plattformen sowie skalierbare Logistik- und Energielösungen.
 
 ## Kurzprofil
 
-- 12+ Jahre Erfahrung in der Full-Stack-Entwicklung sowie technischen Projektleitung
-- Schwerpunkte auf skalierbaren Webanwendungen, API-Design, Cloud-Native-Architekturen und DevOps-Automatisierung
-- Fundierte Branchenkenntnis in Industrie, Logistik, Automotive und Professional Services
-- Leidenschaft für kollaborative Teamarbeit, Mentoring und nachhaltige Engineering-Praktiken
+- Softwarearchitekt mit über zehn Jahren Erfahrung in der Entwicklung von Microservices- und SaaS-Plattformen
+- Schwerpunkt auf .NET, GraphQL, Cloud-Infrastrukturen (Azure, GCP, AWS) und automatisierten Delivery-Pipelines
+- Starke Domänenexpertise in E-Commerce-Lagerlogistik, Energie- und Finanzindustrie
+- Leidenschaft für technische Führung, Coaching von Entwickler:innen und saubere Softwarearchitektur
+
+## Persönliche Daten
+
+- **Geburtsdatum:** 19.11.1985
+- **Staatsangehörigkeit:** Deutsch
+- **Adresse:** Spyristeig 35, 8044 Zürich
 
 ## Kontakt
 
-- **Standort:** Nürnberg, Deutschland (hybrid & remote offen)
-- **Telefon:** +49 000 0000000 _(bitte aktualisieren)_
-- **E-Mail:** roman.weis@example.com _(bitte aktualisieren)_
-- **LinkedIn:** https://www.linkedin.com/in/romanweis _(bitte aktualisieren)_
-- **GitHub:** https://github.com/romanweis _(bitte aktualisieren)_
+- **Standort:** Zürich, Schweiz
+- **Telefon:** +41 76 42 44 186
+- **E-Mail:** roman.weis@proton.me
+- **LinkedIn:** https://www.linkedin.com/in/romanweis
 
 ## Kernkompetenzen
 
-- Programmiersprachen: TypeScript, JavaScript (ESNext), C#, Python, Java _(ggf. ergänzen)_
-- Frameworks & Plattformen: React, Next.js, Node.js, .NET, Spring Boot, Azure, AWS, Docker, Kubernetes
-- Software Crafting: Clean Architecture, Domain-Driven Design, Testautomatisierung, CI/CD, Observability
-- Kollaboration & Leadership: Agile Coaching (Scrum/Kanban), Stakeholder-Management, Cross-funktionale Teams
+- **Programmiersprachen:** C#, JavaScript/TypeScript, Java, Python
+- **Datenbanken:** MS SQL Server, PostgreSQL, RavenDB, MongoDB
+- **Frontend:** HTML/CSS/JavaScript, Angular, React, Blazor
+- **Cloud & Infrastruktur:** GCP, Azure, AWS, Hetzner, Linux Server, Docker, Kubernetes
+- **CI/CD & Automation:** Azure DevOps, TeamCity, Octopus Deploy, GitHub Actions
 
 ## Projekt-Highlights
 
-### Smart Manufacturing IoT-Plattform _(Recruiting-Highlight)_
+### Lagerlogistik-Plattform Digitec Galaxus
 
-- Rolle: Lead Software Engineer & Solution Architect
-- Kontext: Aufbau einer IIoT-Plattform für Produktionslinien-Analytik in einem globalen Industriekonzern
-- Ergebnis: +18% OEE-Steigerung durch Edge-Datenerfassung, Datenpipelines auf Azure und ein React-Analytics-Portal
-- Tech-Stack: Azure IoT Hub, Event Hubs, Cosmos DB, React, TypeScript, GraphQL, Terraform
+- Rolle: Software Architect
+- Kontext: Architektur, Umsetzung und Dokumentation von Lagerlogistik-Komponenten für den führenden Schweizer E-Commerce-Retailer
+- Outcome: Stabilere Fulfillment-Prozesse und schnellere Release-Zyklen durch Architektur-Guidelines, Coaching und bereichsübergreifende Initiative-Steuerung
+- Tech-Stack: .NET, C#, Azure, Kubernetes, Event-driven Architecture
 
-### Supply-Chain Control Tower _(Recruiting-Highlight)_
+### Energiedaten-Plattform Axpo
 
-- Rolle: Technischer Projektleiter & DevOps-Verantwortlicher
-- Kontext: Realtime-Transparenz für Lieferketten eines Logistikdienstleisters mit >150 Partnern
-- Ergebnis: SLA-Konformität auf 99,2% erhöht, Integration von KI-basierten Forecast-Services
-- Tech-Stack: AWS, Serverless Framework, Node.js, DynamoDB, React, TailwindCSS, OpenSearch
+- Rolle: Fullstack Engineer .NET/Blazor (extern)
+- Kontext: Aufbau einer Microservices-Architektur für Energiedaten mit .NET/C#, Hot Chocolate GraphQL Fusion, PostgreSQL und Blazor
+- Outcome: Automatisierte Infrastruktur- und Software-Deployments sowie Self-Service-Datennutzung für Fachbereiche
+- Tech-Stack: .NET, C#, Hot Chocolate GraphQL, PostgreSQL, Blazor, Azure, Terraform, TeamCity, Octopus Deploy
 
-### Weitere Projekte \*(Platzhalter)
+### Stamy Booking SaaS
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti. Integer sodales, turpis at interdum aliquet, enim ligula tristique nisl, ac facilisis risus nisl sed ligula. Donec id metus sed leo hendrerit ultricies.
+- Rolle: Founder, Architect & Developer
+- Kontext: Entwicklung einer SaaS-Lösung für Fitness- und Wellnessanbieter, inklusive Multi-Cloud-Infrastruktur und Multi-Tenant-Fähigkeiten
+- Outcome: Marktreife Plattform mit skalierbarem Betrieb über Azure, GCP, AWS und Hetzner sowie Frontends in Angular, React, Next.js
+- Tech-Stack: C#, RavenDB, Angular, React, Next.js, Azure, GCP, AWS, Hetzner
 
 ## Berufserfahrung
 
-### Senior Software Engineer / Tech Lead – Beispiel GmbH, Nürnberg \*(2019 – heute)
+### Software Architect – Digitec Galaxus AG, Zürich _(Aug 2024 – Heute)_
 
-- Fachliche Führung eines 8-köpfigen Engineering-Teams, Einführung von Domain-Driven Design und Teststrategien
-- Aufbau einer Microservice-Architektur auf Kubernetes, inklusive Observability-Stack (Prometheus, Grafana)
-- Etablierung einer Continuous-Delivery-Pipeline (GitHub Actions, ArgoCD) mit automatisierten Qualitätssicherungen
-- Zusammenarbeit mit Product- und UX-Teams zur Ausrichtung auf Business-Outcome
+- Entwurf, Umsetzung und Dokumentation von Software-Komponenten im Bereich Lagerlogistik
+- Technische Leitung und Ansprechperson für bereichsübergreifende Initiativen
+- Coaching von Softwareentwickler:innen in Architektur- und Engineering-Praktiken
 
-### Lead Full-Stack Developer – Digitale Lösungen AG, München \*(2014 – 2019)
+### Fullstack Engineer .NET/Blazor (Extern) – Axpo Group, Baden _(Mai 2023 – Jun 2024)_
 
-- Umsetzung kundenindividueller Portale in React/Angular & .NET, inklusive API- und Identity-Management
-- Umsetzung eines Design Systems mit Storybook, Einführung von Accessibility-Standards
-- Verantwortung für Architekturentscheidungen, Budgetplanung und externes Lieferantenmanagement
+- Design und Entwicklung einer Energiedaten-Plattform als Microservices-Architektur (.NET/C#, GraphQL, PostgreSQL, Blazor)
+- Automatisierung von Infrastruktur und Deployment-Pipelines mit Azure, Terraform, TeamCity und Octopus Deploy
 
-### Software Engineer – Innovative Systems GmbH, Erlangen \*(2011 – 2014)
+### Fullstack Engineer .NET/React (Extern) – Swiss Life Group, Zürich _(Jun 2022 – Apr 2023)_
 
-- Entwicklung von B2B-Integrationslösungen und REST-APIs (Java/Spring, SQL)
-- Aufbau automatisierter Testsuites (JUnit, Selenium) und Deployment-Skripte
-- Mitarbeit an PoCs zur Cloud-Migration (Azure, AWS)
+- Implementierung von Features mit React Relay, Hot Chocolate GraphQL, .NET/C#, MongoDB und Kubernetes
+- Planung und Umsetzung von Datenmigrationen von SQL Server zu SAP C4C
 
-## Ausbildung & Zertifizierungen
+### Founder, Architect & Developer – Stamy Booking GmbH, Zürich _(Mär 2020 – Mai 2022)_
 
-- M.Sc. Informatik, Friedrich-Alexander-Universität Erlangen-Nürnberg \*(2011)
-- B.Sc. Informatik, Technische Hochschule Nürnberg Georg Simon Ohm \*(2009)
-- Zertifizierungen: AWS Certified Solutions Architect, Microsoft Azure Architect, Professional Scrum Master _(Platzhalter – bitte aktualisieren)_
+- Entwurf und Implementierung einer SaaS-Lösung für die Fitness- und Wellnessbranche
+- Aufbau einer Multi-Cloud-Infrastruktur in Azure, GCP, AWS und Hetzner
+- Entwicklung mehrerer Web-Frontends in Angular, React und Next.js
 
-## Fachliche Schwerpunkte
+### Senior Software Engineer – Techgroup / Maison du Software (Planzer Spin-off), Zürich _(Nov 2019 – Feb 2020)_
 
-- Cloud Native & DevOps: Infrastrukturautomatisierung, Observability, Security by Design
-- Data & Analytics: Streaming, Data Lakes, BI-Dashboards, ML-Ops _(Platzhalter)_
-- Produktinnovation: Discovery-Workshops, Impact Mapping, OKR-basierte Planung
+- Fachliche Unterstützung bei Scrum-Einführung und kontinuierlicher Auslieferung in Azure
+- Technische Anleitung von Junior Entwickler:innen
 
-## Tools & Technologien (Auszug)
+### .NET Fullstack Software Engineer – Zühlke Group, Schlieren _(Mai 2017 – Sep 2019)_
 
-| Kategorie | Technologien                                    |
-| --------- | ----------------------------------------------- |
-| Frontend  | React, Next.js, TailwindCSS, Storybook, Vite    |
-| Backend   | Node.js, .NET, Spring Boot, GraphQL, REST, gRPC |
-| Cloud     | Azure, AWS, Docker, Kubernetes, Terraform, Helm |
-| Data      | Cosmos DB, PostgreSQL, MongoDB, Redis, Kafka    |
-| Qualität  | Jest, Playwright, Cypress, xUnit, SonarQube     |
-| Prozesse  | GitHub Actions, Azure DevOps, Jira, Confluence  |
+- Modernisierung und Skalierung eines Legacy-Systems für Steuerberichterstattung (.NET Core, SQL Server, Docker, RavenDB, Angular)
+- Mitarbeit in mehreren Scrum-Teams als .NET/Angular Fullstack Engineer für eine Privatbank
+- Fertigstellung der Masterarbeit mit Fokus auf Domain-driven Design und Softwarearchitekturen
 
-## Sprachen
+### Software Developer – Freelance, Zürich _(Jan 2017 – Mai 2017)_
+
+- Entwicklung einer Java-Applikation für Backtesting von Forex-Handelsstrategien
+
+### Aerodynamics Engineer GT Compressor – Ansaldo Energia (ehemals Alstom Power), Baden _(Okt 2012 – Dez 2016)_
+
+- Aerodynamische Auslegung von Gasturbinenverdichtern
+- Modernisierung des Rolls-Royce-Designsystems mit Python, PyQt und PostgreSQL
+- Technischer Lead bei der Integration von Konstruktionssoftware während der Übernahme
+
+## Ausbildung
+
+- **Master of Computer Science (Note 1.4)** – FH Trier (Fernstudium), Abschluss 2019  
+  _Masterarbeit: Domain-driven Design, Microservices Architektur, CQRS, Event Sourcing (Note 1.0)_
+- **Diplom Maschinenbau & Verfahrenstechnik (Note 1.7)** – TU Kaiserslautern, Abschluss 2012  
+  _Diplomarbeit bei Rolls-Royce, Dahlewitz: Numerische Untersuchungen & CFD-Simulationen zu Casing Treatments (Note 1.0)_
+- **Abitur (Note 2.2)** – Christian von Mannlich Gymnasium, Homburg (Saar), Abschluss 2007
+
+## Zertifikate & Training
+
+- Certified Professional for Software Architecture (CPSA-F), iSAQB, 10/2022
+- Certified Professional for Requirements Engineering (CPRE-FL), IREB, 04/2019
+- Domain-Driven Design Workshop, Vaughn Vernon, 09/2018
+
+## Sprachkenntnisse
 
 - Deutsch – Muttersprache
-- Englisch – Verhandlungssicher
-- Französisch – Grundkenntnisse _(Platzhalter)_
+- Englisch – Fliessend
 
 ## Engagement & Interessen
 
-- Mentoring im lokalen Developer-Meetup-Netzwerk, Speaker auf Fachkonferenzen _(Platzhalter)_
-- Community-Engagement in Open-Source-Projekten rund um DevOps und Observability _(Platzhalter)_
-- Interessen: Trailrunning, Fotografie, UX-Design-Trends _(Platzhalter)_
+- Coaching & Mentoring von Softwareentwickler:innen
+- Austausch in Domain-driven-Design- und Architektur-Communities
+- Continuous Delivery, Automatisierung & DevOps-Praktiken
 
 ---
 
-_Hinweis: Bitte überprüfen und ergänzen Sie die markierten Platzhalter (Kontakt, Zeiträume, Zertifizierungen, Projekte) mit den finalen Informationen für die jeweilige Vermittlung._
+_Stand: 09.10.2025_

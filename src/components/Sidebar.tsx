@@ -21,6 +21,19 @@ function SectionContainer({
 export function Sidebar({ profile }: { profile: CvProfile }) {
   return (
     <aside className="grid gap-8 rounded-3xl border border-slate-200 bg-gradient-to-b from-slate-50 via-white to-slate-50 p-8 shadow-inner shadow-white/60">
+      <SectionContainer title="Persönliche Daten">
+        <ul className="space-y-3 text-sm">
+          {profile.personal.map((item) => (
+            <li key={item.label} className="space-y-1">
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-slate-500">
+                {item.label}
+              </p>
+              <p className="font-medium text-slate-700">{item.value}</p>
+            </li>
+          ))}
+        </ul>
+      </SectionContainer>
+
       <SectionContainer title="Kontakt">
         <p className="font-medium text-slate-700">{profile.location}</p>
         <ul className="space-y-1">

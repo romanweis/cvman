@@ -3,6 +3,11 @@ export type ContactLink = {
   url: string;
 };
 
+export type DetailItem = {
+  label: string;
+  value: string;
+};
+
 export type TimelineItem = {
   role: string;
   company: string;
@@ -31,6 +36,7 @@ export type CvProfile = {
   availability: string;
   summary: string;
   contact: ContactLink[];
+  personal: DetailItem[];
   location: string;
   languages: { language: string; level: string }[];
   skills: SkillGroup[];
@@ -43,185 +49,250 @@ export type CvProfile = {
 
 export const recruitingDeCv: CvProfile = {
   name: "Roman Weis",
-  title: "Senior Software Engineer & Tech Lead",
+  title: ".NET & Cloud Software Architect",
   availability:
-    "Bereit für Vermittlung – bevorzugt hybride oder remote Projekte (DACH)",
+    "Aktuell Software Architect bei Digitec Galaxus · offen für neue Projekte über Recruiting-Partner",
   summary:
-    "Technologie- und delivery-orientierter Engineering Lead mit Schwerpunkt auf Cloud-nativen Webplattformen, skalierbaren Architekturen und cross-funktionaler Zusammenarbeit. Bringt fundiertes Branchenwissen aus Industrie, Logistik und Automotive mit und kombiniert Hands-on-Umsetzung mit strategischem Blick auf nachhaltige Softwareprodukte.",
+    "Softwarearchitekt und Fullstack Engineer mit Schwerpunkt auf .NET, GraphQL und Cloud-Infrastrukturen. Erfahrung in Lagerlogistik, Energie- und Finanzdomänen, mit Fokus auf skalierbare Microservices, saubere Softwarearchitektur und automatisierte Delivery-Pipelines.",
   contact: [
-    { label: "roman.weis@example.com", url: "mailto:roman.weis@example.com" },
-    { label: "+49 000 0000000", url: "tel:+490000000000" },
+    { label: "roman.weis@proton.me", url: "mailto:roman.weis@proton.me" },
+    { label: "+41 76 42 44 186", url: "tel:+41764244186" },
     { label: "LinkedIn", url: "https://www.linkedin.com/in/romanweis" },
-    { label: "GitHub", url: "https://github.com/romanweis" },
   ],
-  location: "Nürnberg, Deutschland",
+  personal: [
+    { label: "Geburtsdatum", value: "19.11.1985" },
+    { label: "Staatsangehörigkeit", value: "Deutsch" },
+    { label: "Adresse", value: "Spyristeig 35, 8044 Zürich" },
+  ],
+  location: "Zürich, Schweiz",
   languages: [
     { language: "Deutsch", level: "Muttersprache" },
-    { language: "Englisch", level: "Verhandlungssicher" },
-    { language: "Französisch", level: "Grundkenntnisse (aktualisieren)" },
+    { language: "Englisch", level: "Fliessend" },
   ],
   skills: [
     {
-      name: "Tech Leadership",
+      name: "Programmiersprachen",
+      items: ["C#", "JavaScript / TypeScript", "Java", "Python"],
+    },
+    {
+      name: "Datenbanken",
+      items: ["MS SQL Server", "PostgreSQL", "RavenDB", "MongoDB"],
+    },
+    {
+      name: "Frontend",
+      items: ["HTML/CSS/JavaScript", "Angular", "React", "Blazor"],
+    },
+    {
+      name: "Cloud & Infrastruktur",
       items: [
-        "Teamführung & Mentoring",
-        "Agile Methoden (Scrum, Kanban)",
-        "Stakeholder-Management",
-        "Delivery & Roadmap Ownership",
+        "GCP",
+        "Azure",
+        "AWS",
+        "Hetzner",
+        "Linux Server",
+        "Docker",
+        "Kubernetes",
       ],
     },
     {
-      name: "Architektur & Plattformen",
-      items: [
-        "Cloud Native (Azure, AWS)",
-        "Microservices & Event-Driven",
-        "API-Design (REST, GraphQL)",
-        "Infrastructure as Code (Terraform, Bicep)",
-      ],
-    },
-    {
-      name: "Engineering Stack",
-      items: [
-        "TypeScript, Node.js, React, Next.js",
-        "C#, .NET, Java, Spring Boot",
-        "SQL & NoSQL (PostgreSQL, CosmosDB, DynamoDB)",
-        "CI/CD (GitHub Actions, Azure DevOps)",
-      ],
+      name: "CI/CD & Automation",
+      items: ["Azure DevOps", "TeamCity", "Octopus Deploy", "GitHub Actions"],
     },
   ],
   highlights: [
-    "12+ Jahre Erfahrung in der Entwicklung skalierbarer Anwendungen und Cloud-Architekturen",
-    "Beratung und technische Leitung in Projekten mit >150 Stakeholdern",
-    "Fokus auf nachhaltige Engineering-Praktiken, Observability und Qualitätssicherung",
+    "Softwarearchitekt für Lagerlogistik-Systeme bei Digitec Galaxus",
+    "Langjährige Erfahrung im Aufbau cloudübergreifender SaaS- und Microservice-Plattformen (.NET, Blazor, React)",
+    "Starker Fokus auf Coaching, technische Leitung und automatisierte Delivery-Workflows (Azure, Terraform, CI/CD)",
   ],
   projectHighlights: [
     {
-      title: "Smart Manufacturing IoT-Plattform",
-      role: "Lead Software Engineer & Solution Architect",
+      title: "Lagerlogistik-Plattform Digitec Galaxus",
+      role: "Software Architect",
       context:
-        "Aufbau einer IIoT-Plattform für einen globalen Industriekonzern zur Auswertung von Produktionslinien in Echtzeit.",
+        "Entwurf, Umsetzung und Dokumentation von Komponenten für die Lagerlogistik des grössten Schweizer E-Commerce Retailers.",
       outcome:
-        "OEE-Steigerung um 18% dank Edge-Datenerfassung, Analytics-Dashboards und automatisierten Alarmierungsprozessen.",
+        "Stabilisierte Fulfillment-Prozesse und verkürzte Release-Zyklen durch klare Architektur-Guidelines und Coaching des Engineering-Teams.",
       techStack: [
-        "Azure IoT Hub",
-        "Event Hubs",
-        "Cosmos DB",
-        "React",
-        "TypeScript",
-        "GraphQL",
-        "Terraform",
-      ],
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget pretium sem. Morbi laoreet lectus sed nisl tincidunt, sed varius lorem rutrum.",
-    },
-    {
-      title: "Supply-Chain Control Tower",
-      role: "Technischer Projektleiter",
-      context:
-        "Implementierung einer Transparenzplattform für einen europäischen Logistikdienstleister mit über 150 Partnern.",
-      outcome:
-        "SLA-Konformität auf 99,2% erhöht, inklusive Integration von KI-basierten Forecast-Services.",
-      techStack: [
-        "AWS",
-        "Serverless",
-        "Node.js",
-        "React",
-        "TailwindCSS",
-        "OpenSearch",
-      ],
-      description:
-        "Curabitur suscipit, nisl nec interdum maximus, sem arcu aliquet mauris, a gravida ante quam non ipsum. Donec eget vehicula sapien.",
-    },
-    {
-      title: "Digitale After-Sales Suite",
-      role: "Lead Full-Stack Developer",
-      context:
-        "Modernisierung des Service-Portfolios eines Automotive-Zulieferers mit kundenindividuellen Self-Service-Portalen.",
-      outcome:
-        "Time-to-Market von Releases von 8 auf 2 Wochen reduziert, Einführung eines Design Systems für 20+ Märkte.",
-      techStack: [
-        "Next.js",
         ".NET",
-        "Azure Functions",
-        "Storybook",
-        "Azure DevOps",
+        "C#",
+        "Azure",
+        "Kubernetes",
+        "Event-Driven Architecture",
       ],
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. <Bitte Projektdetails ergänzen>.",
+        "Leitete bereichsübergreifende Initiativen, etablierte Best Practices und agierte als Ansprechpartner für technische Fragestellungen im Warehouse-Umfeld.",
+    },
+    {
+      title: "Energiedaten-Plattform Axpo",
+      role: "Fullstack Engineer .NET/Blazor (extern)",
+      context:
+        "Design und Entwicklung einer Microservices-Plattform für Energiedaten mit .NET/C#, Hot Chocolate GraphQL Fusion, PostgreSQL und Blazor.",
+      outcome:
+        "Automatisierte Infrastruktur- und Software-Deployments sowie einheitliche Self-Service-Datennutzung für Fachbereiche.",
+      techStack: [
+        ".NET",
+        "C#",
+        "Hot Chocolate GraphQL",
+        "PostgreSQL",
+        "Blazor",
+        "Azure",
+        "Terraform",
+        "TeamCity",
+        "Octopus Deploy",
+      ],
+      description:
+        "Verantwortlich für Microservice-Design, GraphQL Federation und End-to-End-Automatisierung der Delivery-Pipeline.",
+    },
+    {
+      title: "Stamy Booking SaaS",
+      role: "Founder, Architect & Developer",
+      context:
+        "Aufbau einer SaaS-Lösung für Fitness- und Wellnessanbieter inklusive Multi-Cloud-Infrastruktur und Multi-Tenant-Fähigkeiten.",
+      outcome:
+        "Marktreife Plattform mit skalierbarer Infrastruktur über Azure, GCP, AWS und Hetzner, inklusive mehrerer Web-Frontends in Angular, React und Next.js.",
+      techStack: [
+        "C#",
+        "RavenDB",
+        "Angular",
+        "React",
+        "Next.js",
+        "Azure",
+        "GCP",
+        "AWS",
+        "Hetzner",
+      ],
+      description:
+        "Verantwortung für Architektur, Produktentwicklung und Betrieb – von Backend über Infrastruktur bis UX.",
     },
   ],
   experiences: [
     {
-      role: "Senior Software Engineer / Tech Lead",
-      company: "Beispiel GmbH",
-      location: "Nürnberg",
-      period: "2019 – heute",
+      role: "Software Architect",
+      company: "Digitec Galaxus AG",
+      location: "Zürich",
+      period: "Aug 2024 – Heute",
       highlights: [
-        "Führung eines 8-köpfigen Engineering-Teams, Einführung von Domain-Driven Design und Teststrategien",
-        "Aufbau einer Microservice-Architektur auf Kubernetes inklusive Observability-Stack (Prometheus, Grafana)",
-        "Etablierung einer Continuous-Delivery-Pipeline mit GitHub Actions und ArgoCD",
-        "Enge Zusammenarbeit mit Product- und UX-Teams zur Ausrichtung auf Business-Outcome",
+        "Entwurf, Umsetzung und Dokumentation von Software-Komponenten im Bereich Lagerlogistik",
+        "Technische Leitung und Ansprechpartner für bereichsübergreifende Initiativen",
+        "Coaching von Softwareentwickler:innen in Architektur- und Engineering-Praktiken",
       ],
     },
     {
-      role: "Lead Full-Stack Developer",
-      company: "Digitale Lösungen AG",
-      location: "München",
-      period: "2014 – 2019",
+      role: "Fullstack Engineer .NET/Blazor (extern)",
+      company: "Axpo Group",
+      location: "Baden",
+      period: "Mai 2023 – Jun 2024",
       highlights: [
-        "Umsetzung kundenspezifischer Portale in React/Angular & .NET inklusive Identity-Management",
-        "Entwicklung eines unternehmensweiten Design Systems mit Storybook und Accessibility-Standards",
-        "Technische Verantwortung für Architekturentscheidungen und externes Lieferantenmanagement",
+        "Design und Entwicklung einer Energiedaten-Plattform als Microservices-Architektur (.NET/C#, GraphQL, PostgreSQL, Blazor)",
+        "Automatisierung von Infrastruktur und Deployment-Pipelines mit Azure, Terraform, TeamCity und Octopus Deploy",
       ],
     },
     {
-      role: "Software Engineer",
-      company: "Innovative Systems GmbH",
-      location: "Erlangen",
-      period: "2011 – 2014",
+      role: "Fullstack Engineer .NET/React (extern)",
+      company: "Swiss Life Group",
+      location: "Zürich",
+      period: "Jun 2022 – Apr 2023",
       highlights: [
-        "Entwicklung von B2B-Integrationslösungen und REST-APIs (Java/Spring, SQL)",
-        "Aufbau automatisierter Testsuites (JUnit, Selenium) und Deployment-Skripte",
-        "Mitarbeit an Proof-of-Concepts für Cloud-Migration (Azure, AWS)",
+        "Implementierung von Features mit React Relay, Hot Chocolate GraphQL, .NET/C#, MongoDB und Kubernetes",
+        "Planung und Durchführung von Datenmigrationen von SQL Server zu SAP C4C",
+      ],
+    },
+    {
+      role: "Founder, Architect & Developer",
+      company: "Stamy Booking GmbH",
+      location: "Zürich",
+      period: "Mär 2020 – Mai 2022",
+      highlights: [
+        "Entwurf und Implementierung einer SaaS-Lösung für die Fitness- und Wellnessbranche",
+        "Implementierung einer Multi-Cloud-Infrastruktur über Azure, GCP, AWS und Hetzner",
+        "Entwicklung mehrerer Web-Frontends in Angular, React und Next.js",
+      ],
+    },
+    {
+      role: "Senior Software Engineer",
+      company: "Techgroup / Maison du Software (Planzer Spin-off)",
+      location: "Zürich",
+      period: "Nov 2019 – Feb 2020",
+      highlights: [
+        "Unterstützung bei der Einführung von Scrum und kontinuierlicher Softwareauslieferung in Azure",
+        "Technische Anleitung von Junior Entwickler:innen",
+      ],
+    },
+    {
+      role: ".NET Fullstack Software Engineer",
+      company: "Zühlke Group",
+      location: "Schlieren",
+      period: "Mai 2017 – Sep 2019",
+      highlights: [
+        "Modernisierung und Skalierung eines komplexen Legacy-Systems für Steuerberichterstattung (.NET Core, SQL Server, Docker, RavenDB, Angular)",
+        "Mitarbeit in mehreren Scrum-Teams als .NET/Angular Fullstack Engineer für eine Privatbank",
+        "Abschluss der Masterarbeit mit Fokus auf Domain-driven Design und Softwarearchitekturen",
+      ],
+    },
+    {
+      role: "Software Developer",
+      company: "Freelance",
+      location: "Zürich",
+      period: "Jan 2017 – Mai 2017",
+      highlights: [
+        "Entwicklung einer Java-Applikation für das Backtesting von Forex-Handelsstrategien",
+      ],
+    },
+    {
+      role: "Aerodynamics Engineer GT Compressor",
+      company: "Ansaldo Energia (ehemals Alstom Power)",
+      location: "Baden",
+      period: "Okt 2012 – Dez 2016",
+      highlights: [
+        "Aerodynamische Auslegung von Gasturbinenverdichtern",
+        "Modernisierung des Legacy Rolls-Royce Design Systems mit Python, PyQt und PostgreSQL",
+        "Technischer Lead bei der Integration von Konstruktionssoftware während der Übernahme",
       ],
     },
   ],
   education: [
     {
-      role: "M.Sc. Informatik",
-      company: "Friedrich-Alexander-Universität Erlangen-Nürnberg",
-      location: "Erlangen",
-      period: "2011",
+      role: "Master of Computer Science (Note 1.4)",
+      company: "FH Trier – Fernstudium",
+      location: "Trier / Remote",
+      period: "Abschluss 2019",
       highlights: [
-        "Schwerpunkt: Verteilte Systeme & Software-Engineering",
-        "Masterarbeit zu eventgetriebener Integration industrieller Datenströme",
+        "Masterarbeit: Domain-driven Design, Microservices Architektur, CQRS, Event Sourcing (Note 1.0)",
+        "Fernstudium parallel zu Vollzeitprojekten im Software Engineering",
       ],
     },
     {
-      role: "B.Sc. Informatik",
-      company: "Technische Hochschule Nürnberg Georg Simon Ohm",
-      location: "Nürnberg",
-      period: "2009",
+      role: "Diplom Maschinenbau & Verfahrenstechnik (Note 1.7)",
+      company: "TU Kaiserslautern",
+      location: "Kaiserslautern",
+      period: "Abschluss 2012",
       highlights: [
-        "Fokus auf Webentwicklung und Datenbanken",
-        "Praxissemester in agiler Produktentwicklung",
+        "Vertiefungen: Energietechnik, Grundlagen des Maschinenbaus, Strömungsmechanik",
+        "Diplomarbeit bei Rolls-Royce, Dahlewitz: Numerische Untersuchungen & CFD-Simulationen zu Casing Treatments (Note 1.0)",
       ],
     },
     {
-      role: "Zertifizierungen (Auswahl)",
-      company: "AWS / Microsoft / Scrum.org",
+      role: "Abitur (Note 2.2)",
+      company: "Christian von Mannlich Gymnasium",
+      location: "Homburg (Saar)",
+      period: "Abschluss 2007",
+      highlights: ["Allgemeine Hochschulreife"],
+    },
+    {
+      role: "Zertifikate & Trainings",
+      company: "iSAQB · IREB · Vaughn Vernon",
       location: "",
-      period: "Aktualisieren",
+      period: "2022 – 2018",
       highlights: [
-        "AWS Certified Solutions Architect",
-        "Microsoft Azure Architect",
-        "Professional Scrum Master (PSM I)",
+        "Certified Professional for Software Architecture, Foundation Level (iSAQB), 10/2022",
+        "Certified Professional for Requirements Engineering, Foundation Level (IREB), 04/2019",
+        "Domain-Driven Design Workshop mit Vaughn Vernon, 09/2018",
       ],
     },
   ],
   interests: [
-    "Mentoring in lokalen Developer-Meetups",
-    "Vorträge zu DevOps, Observability und Clean Architectures",
-    "Trailrunning, Fotografie, UX-Design-Trends",
+    "Coaching & Mentoring von Softwareentwickler:innen",
+    "Architektur-Communities rund um Domain-driven Design",
+    "Continuous Delivery, Automatisierung & DevOps-Praktiken",
   ],
 };
