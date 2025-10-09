@@ -6,7 +6,7 @@ type HeroCardProps = {
 
 export function HeroCard({ profile }: HeroCardProps) {
   return (
-    <header className="border-b border-slate-300 pb-4">
+    <header className="cv-hero border-b border-slate-300 pb-4">
       <div className="grid gap-3 md:grid-cols-[auto,1fr] md:items-start">
         <div className="flex flex-col gap-2">
           <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-slate-600">

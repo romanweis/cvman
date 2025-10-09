@@ -26,14 +26,10 @@ export function TimelineList({ items }: TimelineListProps) {
               {item.period}
             </span>
           </div>
-          <ul className="mt-2 space-y-1 text-[13px] text-slate-700">
+          <ul className="mt-2 list-disc space-y-1 pl-6 text-[13px] text-slate-700 marker:text-slate-400">
             {item.highlights.map((highlight) => (
-              <li key={highlight} className="flex gap-2">
-                <span
-                  aria-hidden
-                  className="mt-[5px] h-1.5 w-1.5 rounded-full bg-slate-400"
-                />
-                <span className="leading-relaxed">{highlight}</span>
+              <li key={highlight} className="leading-relaxed">
+                {highlight}
               </li>
             ))}
           </ul>

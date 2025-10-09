@@ -139,7 +139,7 @@ export const recruitingDeCv: CvProfile = {
     },
     {
       role: "Senior Software Engineer",
-      company: "Techgroup / Maison du Software (Planzer Spin-off)",
+      company: "Maison du Software",
       location: "Zürich",
       period: "Nov 2019 - Feb 2020",
       highlights: [
