@@ -9,26 +9,28 @@ function SectionContainer({
   children: ReactNode;
 }) {
   return (
-    <section className="space-y-1.5">
-      <h3 className="text-[11px] font-semibold uppercase tracking-[0.3em] text-slate-600">
+    <section className="space-y-1">
+      <h3 className="text-[10px] font-semibold uppercase tracking-[0.3em] text-slate-600">
         {title}
       </h3>
-      <div className="space-y-[5px] text-[12px] text-slate-700">{children}</div>
+      <div className="space-y-[4px] text-[11.5px] text-slate-700">
+        {children}
+      </div>
     </section>
   );
 }
 
 export function Sidebar({ profile }: { profile: CvProfile }) {
   return (
-    <aside className="grid gap-3 text-[12px]">
+    <aside className="grid gap-4 text-[11.5px]">
       <SectionContainer title="Persönliche Daten">
-        <ul className="space-y-1.5">
+        <ul className="space-y-1">
           {profile.personal.map((item) => (
             <li key={item.label} className="space-y-0.5">
-              <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-slate-500">
+              <p className="text-[10px] font-semibold uppercase tracking-[0.2em] text-slate-500">
                 {item.label}
               </p>
-              <p className="text-[12px] font-medium text-slate-700">
+              <p className="text-[11.5px] font-medium text-slate-700">
                 {item.value}
               </p>
             </li>
@@ -37,45 +39,46 @@ export function Sidebar({ profile }: { profile: CvProfile }) {
       </SectionContainer>
 
       <SectionContainer title="Kontakt">
-        <p className="text-[12px] font-medium text-slate-700">
-          {profile.location}
-        </p>
-        <ul className="space-y-0.5 text-slate-600">
+        <ul className="space-y-[2px] text-slate-600">
           {profile.contact.map((link) => (
-            <li key={link.url} className="break-all text-[12px]">
+            <li key={link.url} className="break-all text-[11.5px]">
               {link.label}
             </li>
           ))}
         </ul>
       </SectionContainer>
 
-      <SectionContainer title="Sprachen">
-        <ul className="space-y-0.5 text-[12px]">
-          {profile.languages.map((language) => (
-            <li key={language.language} className="flex justify-start gap-2">
-              <span className="font-medium text-slate-700">
-                {language.language}
-              </span>
-              <span className="text-slate-500">{language.level}</span>
-            </li>
-          ))}
-        </ul>
-      </SectionContainer>
-
       <SectionContainer title="Kompetenzen">
-        <div className="space-y-2">
+        <div className="space-y-1.5">
           {profile.skills.map((group) => (
             <div key={group.name} className="space-y-1">
-              <p className="text-[11px] font-semibold tracking-[0.2em] text-slate-500">
+              <p className="text-[10px] font-semibold tracking-[0.2em] text-slate-800">
                 {group.name}
               </p>
-              <p className="text-[11px] leading-snug text-slate-600">
-                {group.items.join(" · ")}
-              </p>
+              <ul className="list-disc list-inside space-y-[2px] text-[11px] leading-snug text-slate-600">
+                {group.items.map((item) => (
+                  <li key={item}>{item}</li>
+                ))}
+              </ul>
             </div>
           ))}
         </div>
       </SectionContainer>
+
+      <div className="cv-sidebar-languages-skills break-inside-avoid">
+        <SectionContainer title="Sprachen">
+          <ul className="space-y-[2px] text-[11.5px]">
+            {profile.languages.map((language) => (
+              <li key={language.language} className="flex justify-start gap-2">
+                <span className="font-medium text-slate-700">
+                  {language.language}
+                </span>
+                <span className="text-slate-500">{language.level}</span>
+              </li>
+            ))}
+          </ul>
+        </SectionContainer>
+      </div>
     </aside>
   );
 }

@@ -49,7 +49,7 @@ export const recruitingDeCv: CvProfile = {
   title: "Software Architect & Fullstack Engineer",
   availability: "Aktuell Software Architect bei Digitec Galaxus",
   summary:
-    "Schwerpunkt auf .NET, Software-Architekturen und Experemente mit Agentic AI. Erfahrung in E-Commerce, Lagerlogistik, Energie- und Finanzdomänen.",
+    "Schwerpunkt auf Software-Architekturen und Agentic AI. Erfahrung in E-Commerce, Lagerlogistik, Energie- und Finanzdomänen.",
   contact: [
     { label: "roman.weis@proton.me", url: "mailto:roman.weis@proton.me" },
     { label: "+41 76 42 44 186", url: "tel:+41764244186" },
@@ -73,49 +73,59 @@ export const recruitingDeCv: CvProfile = {
     {
       name: "Architektur & Engineering",
       items: [
-        "DDD, modulare Systeme, Microservices",
+        "Domain-driven Design",
+        "Strukturierter Monolith, Microservices",
         "Skalierbarkeit, Testbarkeit, Performance/Resilienz",
       ],
     },
     {
+      name: "Architekturdokumentation",
+      items: ["UML", "arc42", "C4 Model"],
+    },
+    {
       name: "Daten & Persistenz",
       items: [
-        "SQL/NoSQL, tragfähige Datenmodelle",
-        "Transaktionen/Konsistenz, Caching, Event Sourcing/Streaming",
+        "SQL/NoSQL, Datenmodellierung",
+        "Transaktionen/Konsistenz, Caching",
+        "Event Sourcing/Streaming",
       ],
     },
     {
       name: "APIs & Integration",
       items: [
         "API-First, Contract-driven",
-        "REST/GraphQL/gRPC; Versionierung, AuthN/AuthZ, SLAs",
+        "Schema design",
+        "REST/GraphQL/gRPC; Versionierung, AuthN/AuthZ",
       ],
     },
     {
       name: "KI-gestützte Entwicklung",
       items: [
-        "KI in Dev-Workflows & Softwarelieferung",
-        "RAG/Tool-Orchestrierung, Qualität & Governance",
+        "KI in Dev-Workflows",
+        "Agentic AI, MCP Server, Qualität & Governance",
       ],
     },
     {
       name: "Frontend",
       items: [
         "Design Systems, Komponenten, State-Management",
-        "Performance, Accessibility, SSR/Micro-Frontends",
+        "Performance, Accessibility",
+        "Federated GraphQL",
+        "Enterprise-Frontends mit React, Angular, Blazor",
       ],
     },
     {
       name: "Cloud & Plattform",
       items: [
         "Multi-Cloud (Azure/AWS/GCP/Hetzner)",
-        "Kubernetes/Service Mesh; IaC & GitOps",
+        "Docker, Kubernetes",
+        "Infrastructure as Code",
       ],
     },
     {
       name: "DevOps & Reliability",
       items: [
-        "CI/CD, Release-Strategien (Blue-Green/Canary)",
+        "CI/CD, Release-Strategien",
         "Testautomatisierung, SRE (SLIs/SLOs, Incident Response)",
       ],
     },
@@ -129,8 +139,8 @@ export const recruitingDeCv: CvProfile = {
     {
       name: "Security & Compliance",
       items: [
-        "Zero Trust, Secrets-Management, Policies as Code",
-        "Supply-Chain-Security (SBOM/SLSA), Datenschutz",
+        "Zero Trust, Secrets-Management",
+        "Auditierbarkeit, Datenschutz (z. B. DSGVO)",
       ],
     },
   ],
@@ -164,7 +174,7 @@ export const recruitingDeCv: CvProfile = {
       location: "Zürich",
       period: "Jun. 2022 – Apr. 2023",
       highlights: [
-        "Umsetzung fachlicher Features mit React Relay, Hot Chocolate GraphQL, .NET/C#, MongoDB und Kubernetes",
+        "Umsetzung von Features für ein Versicherungsportal mit React Relay, Hot Chocolate GraphQL, .NET/C#, MongoDB und Kubernetes",
         "Planung und Durchführung von Datenmigrationen von SQL Server nach SAP C4C",
       ],
     },
