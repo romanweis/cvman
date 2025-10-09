@@ -34,6 +34,11 @@ const fallbackSections: SidebarSectionConfig[] = [
   { key: "languages", allowPageBreak: true },
 ];
 
+const skillGroupBreakStyle: CSSProperties = {
+  breakInside: "avoid",
+  pageBreakInside: "avoid",
+};
+
 export function Sidebar({ profile }: { profile: CvProfile }) {
   const sections = profile.sidebarSections ?? fallbackSections;
 
@@ -87,7 +92,11 @@ export function Sidebar({ profile }: { profile: CvProfile }) {
               >
                 <div className="space-y-3">
                   {profile.skills.map((group) => (
-                    <div key={group.name} className="space-y-1">
+                    <div
+                      key={group.name}
+                      className="space-y-1"
+                      style={skillGroupBreakStyle}
+                    >
                       <p className="text-[10px] font-semibold tracking-[0.2em] text-slate-800">
                         {group.name}
                       </p>
