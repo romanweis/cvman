@@ -20,7 +20,7 @@ function SectionContainer({
 
 export function Sidebar({ profile }: { profile: CvProfile }) {
   return (
-    <aside className="grid gap-4 text-[12px]">
+    <aside className="grid gap-3 text-[12px]">
       <SectionContainer title="Persönliche Daten">
         <ul className="space-y-1.5">
           {profile.personal.map((item) => (
@@ -63,38 +63,24 @@ export function Sidebar({ profile }: { profile: CvProfile }) {
       </SectionContainer>
 
       <SectionContainer title="Kompetenzen">
-        <div className="grid gap-3">
+        <div className="space-y-2">
           {profile.skills.map((group) => (
-            <div key={group.name} className="space-y-2">
-              <p className="text-xs font-semibold tracking-[0.2em] text-slate-500">
+            <div key={group.name} className="space-y-1">
+              <p className="text-[11px] font-semibold tracking-[0.2em] text-slate-500">
                 {group.name}
               </p>
-              <ul className="space-y-0.5 text-[12px]">
-                {group.items.map((item) => (
-                  <li key={item} className="flex gap-2">
-                    <span
-                      aria-hidden
-                      className="mt-[6px] h-1.5 w-1.5 shrink-0 rounded-full bg-slate-400"
-                    />
-                    <span className="leading-relaxed text-slate-600">
-                      {item}
-                    </span>
-                  </li>
-                ))}
-              </ul>
+              <p className="text-[11px] leading-snug text-slate-600">
+                {group.items.join(" · ")}
+              </p>
             </div>
           ))}
         </div>
       </SectionContainer>
 
       <SectionContainer title="Engagement & Interessen">
-        <ul className="space-y-0.5 text-[12px]">
-          {profile.interests.map((interest) => (
-            <li key={interest} className="leading-relaxed text-slate-600">
-              {interest}
-            </li>
-          ))}
-        </ul>
+        <p className="text-[11px] leading-snug text-slate-600">
+          {profile.interests.join(" · ")}
+        </p>
       </SectionContainer>
     </aside>
   );
