@@ -58,7 +58,7 @@ export const recruitingDeCv: CvProfile = {
   title: "Software Architect & Fullstack Engineer",
   availability: "Aktuell Software Architect bei Digitec Galaxus",
   summary:
-    "Schwerpunkt auf Software-Architekturen und Agentic AI. Erfahrung in E-Commerce, Lagerlogistik, Energie- und Finanzdomänen.",
+    "Schwerpunkt auf Software-Architekturen und Agentic AI. Erfahrung in E-Commerce, Lagerlogistik, Energie-, Versicherungs- und Finanzbranchen.",
   contact: [
     { label: "roman.weis@proton.me", url: "mailto:roman.weis@proton.me" },
     { label: "+41 76 42 44 186", url: "tel:+41764244186" },
@@ -90,12 +90,18 @@ export const recruitingDeCv: CvProfile = {
       items: [
         "Domain-driven Design",
         "Strukturierter Monolith, Microservices",
-        "Skalierbarkeit, Testbarkeit, Performance/Resilienz",
+        "Skalierbarkeit, Testbarkeit, Performance, Resilienz",
       ],
     },
     {
       name: "Architekturdokumentation",
-      items: ["UML", "arc42", "C4 Model"],
+      items: [
+        "UML",
+        "arc42 Architektursichten",
+        "C4 Model",
+        "Architecture Decisions Records (ADRs)",
+        "Diagramme als Code (Mermaid)",
+      ],
     },
     {
       name: "Daten & Persistenz",
@@ -110,7 +116,7 @@ export const recruitingDeCv: CvProfile = {
       items: [
         "API-First, Contract-driven",
         "Schema design",
-        "REST/GraphQL/gRPC; Versionierung, AuthN/AuthZ",
+        "REST/GraphQL/gRPC, Versionierung, AuthN/AuthZ",
       ],
     },
     {
