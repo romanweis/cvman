@@ -14,6 +14,7 @@ export type TimelineItem = {
   location: string;
   period: string;
   highlights: string[];
+  allowPageBreak?: boolean;
 };
 
 export type ProjectHighlight = {
@@ -177,6 +178,7 @@ export const recruitingDeCv: CvProfile = {
       company: "Axpo Group",
       location: "Baden",
       period: "Mai 2023 – Jun. 2024",
+      allowPageBreak: true,
       highlights: [
         "Konzeption und Entwicklung einer Energiedatenplattform in Microservices-Architektur (.NET/C#, GraphQL, PostgreSQL, Blazor)",
         "Aufbau und Automatisierung von Infrastruktur sowie CI/CD-Pipelines mit Azure, Terraform, TeamCity und Octopus Deploy",
@@ -187,6 +189,7 @@ export const recruitingDeCv: CvProfile = {
       company: "Swiss Life Group",
       location: "Zürich",
       period: "Jun. 2022 – Apr. 2023",
+      allowPageBreak: true,
       highlights: [
         "Umsetzung von Features für ein Versicherungsportal mit React Relay, Hot Chocolate GraphQL, .NET/C#, MongoDB und Kubernetes",
         "Planung und Durchführung von Datenmigrationen von SQL Server nach SAP C4C",
@@ -197,6 +200,7 @@ export const recruitingDeCv: CvProfile = {
       company: "Stamy Booking GmbH",
       location: "Zürich",
       period: "März 2020 – Mai 2022",
+      allowPageBreak: true,
       highlights: [
         "Konzeption und Realisierung einer SaaS-Lösung für die Fitness- und Wellnessbranche",
         "Aufbau einer Multi-Cloud-Infrastruktur über Azure, GCP, AWS und Hetzner",
@@ -208,6 +212,7 @@ export const recruitingDeCv: CvProfile = {
       company: "Maison du Software",
       location: "Zürich",
       period: "Nov. 2019 – Feb. 2020",
+      allowPageBreak: true,
       highlights: [
         "Einführung von Scrum und Continuous Delivery in Azure",
         "Technische Betreuung und Anleitung von Junior-Entwickler:innen",
@@ -218,6 +223,7 @@ export const recruitingDeCv: CvProfile = {
       company: "Zühlke Group",
       location: "Schlieren",
       period: "Mai 2017 – Sep. 2019",
+      allowPageBreak: false,
       highlights: [
         "Modernisierung und Skalierung eines komplexen Legacy-Systems für die Steuerberichterstattung (.NET Core, SQL Server, Docker, RavenDB, Angular)",
         "Mitarbeit in mehreren Scrum-Teams als .NET-/Angular-Fullstack-Engineer für eine Privatbank",

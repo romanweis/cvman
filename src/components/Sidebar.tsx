@@ -85,7 +85,7 @@ export function Sidebar({ profile }: { profile: CvProfile }) {
                 title="Kompetenzen"
                 allowPageBreak={allowPageBreak}
               >
-                <div className="space-y-1.5">
+                <div className="space-y-3">
                   {profile.skills.map((group) => (
                     <div key={group.name} className="space-y-1">
                       <p className="text-[10px] font-semibold tracking-[0.2em] text-slate-800">

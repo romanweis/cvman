@@ -1,3 +1,4 @@
+import type { CSSProperties } from "react";
 import type { TimelineItem } from "../data/recruitingDeCv";
 
 type TimelineListProps = {
@@ -11,6 +12,7 @@ export function TimelineList({ items }: TimelineListProps) {
         <li
           key={`${item.role}-${item.company}-${item.period}`}
           className="border-b border-slate-200 pb-2 last:border-b-0"
+          style={getBreakStyle(item.allowPageBreak)}
         >
           <div className="flex flex-wrap items-baseline justify-between gap-2 text-[13px]">
             <div>
@@ -37,4 +39,12 @@ export function TimelineList({ items }: TimelineListProps) {
       ))}
     </ol>
   );
+}
+
+function getBreakStyle(allowPageBreak?: boolean): CSSProperties {
+  if (allowPageBreak) {
+    return { breakInside: "auto", pageBreakInside: "auto" };
+  }
+
+  return { breakInside: "avoid", pageBreakInside: "avoid" };
 }
