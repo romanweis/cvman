@@ -1,22 +1,14 @@
 type BadgeListProps = {
   items: string[];
-  variant?: "solid" | "outline";
 };
 
-export function BadgeList({ items, variant = "solid" }: BadgeListProps) {
-  const base =
-    variant === "solid"
-      ? "bg-slate-900 text-slate-100"
-      : "border border-slate-300 text-slate-600";
-
+export function BadgeList({ items }: BadgeListProps) {
   return (
-    <ul className="flex flex-wrap gap-2">
-      {items.map((item) => (
-        <li
-          key={item}
-          className={`rounded-full px-3 py-1 text-xs font-medium uppercase tracking-wide ${base}`}
-        >
-          {item}
+    <ul className="flex flex-wrap gap-x-3 gap-y-1 text-[11px] uppercase tracking-[0.12em] text-slate-600">
+      {items.map((item, index) => (
+        <li key={item} className="flex items-center gap-2 whitespace-nowrap">
+          {index > 0 && <span aria-hidden>•</span>}
+          <span>{item}</span>
         </li>
       ))}
     </ul>

@@ -6,27 +6,27 @@ type TimelineListProps = {
 
 export function TimelineList({ items }: TimelineListProps) {
   return (
-    <ol className="space-y-6">
+    <ol className="space-y-4">
       {items.map((item) => (
         <li
           key={`${item.role}-${item.company}-${item.period}`}
-          className="rounded-xl border border-slate-200 bg-white/70 p-5 shadow-sm shadow-slate-100"
+          className="border-b border-slate-200 pb-3 last:border-b-0"
         >
-          <div className="flex flex-wrap items-baseline justify-between gap-2">
+          <div className="flex flex-wrap items-baseline justify-between gap-2 text-[13px]">
             <div>
-              <h3 className="text-base font-semibold text-slate-900">
+              <h3 className="text-sm font-semibold text-slate-900">
                 {item.role}
               </h3>
-              <p className="text-sm font-medium text-slate-600">
+              <p className="text-[12px] font-medium text-slate-600">
                 {item.company}
                 {item.location ? ` · ${item.location}` : ""}
               </p>
             </div>
-            <span className="rounded-full bg-slate-900/5 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-slate-600">
+            <span className="text-[11px] font-semibold uppercase tracking-[0.15em] text-slate-500">
               {item.period}
             </span>
           </div>
-          <ul className="mt-4 space-y-2 text-sm text-slate-700">
+          <ul className="mt-3 space-y-1.5 text-[13px] text-slate-700">
             {item.highlights.map((highlight) => (
               <li key={highlight} className="flex gap-2">
                 <span

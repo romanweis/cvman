@@ -6,50 +6,42 @@ type HeroCardProps = {
 
 export function HeroCard({ profile }: HeroCardProps) {
   return (
-    <header className="relative overflow-hidden rounded-3xl border border-slate-200 bg-white/80 p-8 shadow-lg shadow-emerald-100">
-      <div className="absolute inset-y-0 right-0 w-1/3 bg-gradient-to-br from-emerald-100 via-transparent to-transparent opacity-60" />
-      <div className="relative grid gap-6 md:grid-cols-[auto,1fr] md:items-center">
-        <div className="flex flex-col gap-3">
-          <span className="text-xs font-semibold uppercase tracking-[0.4em] text-emerald-600">
+    <header className="border-b border-slate-300 pb-6">
+      <div className="grid gap-4 md:grid-cols-[auto,1fr] md:items-start">
+        <div className="flex flex-col gap-2">
+          <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-slate-600">
             {profile.availability}
           </span>
-          <h1 className="text-4xl font-bold tracking-tight text-slate-900 md:text-5xl">
+          <h1 className="text-3xl font-semibold uppercase tracking-[0.1em] text-slate-900">
             {profile.name}
           </h1>
-          <p className="text-lg font-medium text-slate-600">{profile.title}</p>
-        </div>
-        <div className="space-y-4 text-sm text-slate-600">
-          <p className="leading-relaxed text-base text-slate-700">
-            {profile.summary}
+          <p className="text-base font-medium text-slate-700">
+            {profile.title}
           </p>
-          <div className="flex flex-wrap items-center gap-3">
-            <span className="rounded-full bg-emerald-500/10 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-emerald-700">
-              {profile.location}
-            </span>
-          </div>
-          <ul className="grid gap-2 text-sm text-slate-600">
+          <p className="text-sm font-medium text-slate-600">
+            {profile.location}
+          </p>
+        </div>
+        <div className="space-y-3 text-[13px] leading-relaxed text-slate-700">
+          <p>{profile.summary}</p>
+          <ul className="space-y-1">
             {profile.highlights.map((highlight) => (
               <li key={highlight} className="flex gap-2">
                 <span
                   aria-hidden
-                  className="mt-[7px] h-2 w-2 shrink-0 rounded-full bg-emerald-500"
+                  className="mt-[7px] h-1.5 w-1.5 shrink-0 rounded-full bg-slate-500"
                 />
-                <span className="leading-relaxed">{highlight}</span>
+                <span>{highlight}</span>
               </li>
             ))}
           </ul>
-          <ul className="flex flex-wrap gap-3 text-sm">
+          <div className="flex flex-col gap-1 text-[12px] text-slate-600">
             {profile.contact.map((link) => (
-              <li key={link.url}>
-                <a
-                  href={link.url}
-                  className="flex items-center gap-2 rounded-full border border-transparent bg-slate-900 px-4 py-2 text-xs font-semibold uppercase tracking-wide text-white transition hover:bg-slate-700"
-                >
-                  {link.label}
-                </a>
-              </li>
+              <span key={link.url} className="break-all">
+                {link.label}
+              </span>
             ))}
-          </ul>
+          </div>
         </div>
       </div>
     </header>

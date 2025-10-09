@@ -9,26 +9,28 @@ function SectionContainer({
   children: ReactNode;
 }) {
   return (
-    <section className="space-y-3">
-      <h3 className="text-xs font-semibold uppercase tracking-[0.3em] text-slate-500">
+    <section className="space-y-2">
+      <h3 className="text-[11px] font-semibold uppercase tracking-[0.3em] text-slate-600">
         {title}
       </h3>
-      <div className="space-y-2 text-sm text-slate-600">{children}</div>
+      <div className="space-y-1.5 text-[13px] text-slate-700">{children}</div>
     </section>
   );
 }
 
 export function Sidebar({ profile }: { profile: CvProfile }) {
   return (
-    <aside className="grid gap-8 rounded-3xl border border-slate-200 bg-gradient-to-b from-slate-50 via-white to-slate-50 p-8 shadow-inner shadow-white/60">
+    <aside className="grid gap-6 text-[13px]">
       <SectionContainer title="Persönliche Daten">
-        <ul className="space-y-3 text-sm">
+        <ul className="space-y-2">
           {profile.personal.map((item) => (
             <li key={item.label} className="space-y-1">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-slate-500">
+              <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-slate-500">
                 {item.label}
               </p>
-              <p className="font-medium text-slate-700">{item.value}</p>
+              <p className="text-[13px] font-medium text-slate-700">
+                {item.value}
+              </p>
             </li>
           ))}
         </ul>
@@ -36,15 +38,10 @@ export function Sidebar({ profile }: { profile: CvProfile }) {
 
       <SectionContainer title="Kontakt">
         <p className="font-medium text-slate-700">{profile.location}</p>
-        <ul className="space-y-1">
+        <ul className="space-y-1 text-slate-600">
           {profile.contact.map((link) => (
-            <li key={link.url}>
-              <a
-                href={link.url}
-                className="text-sm font-medium text-emerald-600 transition hover:text-emerald-700 hover:underline"
-              >
-                {link.label}
-              </a>
+            <li key={link.url} className="break-all text-[13px]">
+              {link.label}
             </li>
           ))}
         </ul>
@@ -75,7 +72,7 @@ export function Sidebar({ profile }: { profile: CvProfile }) {
                   <li key={item} className="flex gap-2">
                     <span
                       aria-hidden
-                      className="mt-[7px] h-1.5 w-1.5 shrink-0 rounded-full bg-emerald-400"
+                      className="mt-[7px] h-1.5 w-1.5 shrink-0 rounded-full bg-slate-400"
                     />
                     <span className="leading-relaxed text-slate-600">
                       {item}

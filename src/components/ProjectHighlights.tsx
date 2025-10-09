@@ -7,25 +7,24 @@ type ProjectHighlightsProps = {
 
 export function ProjectHighlights({ projects }: ProjectHighlightsProps) {
   return (
-    <div className="grid gap-5">
+    <div className="grid gap-4">
       {projects.map((project) => (
         <article
           key={project.title}
-          className="group relative overflow-hidden rounded-2xl border border-slate-200 bg-white/80 p-6 shadow-sm shadow-slate-100 transition-shadow duration-300 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-emerald-100"
+          className="border-b border-slate-200 pb-4 last:border-b-0"
         >
-          <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-emerald-500 via-teal-500 to-sky-500" />
-          <header className="mt-3 flex flex-wrap items-start justify-between gap-3">
-            <div>
-              <h3 className="text-lg font-semibold text-slate-900">
+          <header className="flex flex-wrap items-start justify-between gap-3">
+            <div className="space-y-1">
+              <h3 className="text-base font-semibold text-slate-900">
                 {project.title}
               </h3>
-              <p className="text-sm font-medium text-emerald-600">
+              <p className="text-[12px] font-medium text-slate-600">
                 {project.role}
               </p>
             </div>
-            <BadgeList items={project.techStack} variant="outline" />
+            <BadgeList items={project.techStack} />
           </header>
-          <div className="mt-4 space-y-3 text-sm leading-relaxed text-slate-700">
+          <div className="mt-3 space-y-2 text-[13px] leading-relaxed text-slate-700">
             <p>
               <span className="font-semibold text-slate-900">Kontext:</span>{" "}
               {project.context}
@@ -34,7 +33,11 @@ export function ProjectHighlights({ projects }: ProjectHighlightsProps) {
               <span className="font-semibold text-slate-900">Outcome:</span>{" "}
               {project.outcome}
             </p>
-            {project.description && <p>{project.description}</p>}
+            {project.description && (
+              <p className="text-[12px] text-slate-600">
+                {project.description}
+              </p>
+            )}
           </div>
         </article>
       ))}
