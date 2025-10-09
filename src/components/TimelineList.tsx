@@ -6,11 +6,11 @@ type TimelineListProps = {
 
 export function TimelineList({ items }: TimelineListProps) {
   return (
-    <ol className="space-y-4">
+    <ol className="space-y-3">
       {items.map((item) => (
         <li
           key={`${item.role}-${item.company}-${item.period}`}
-          className="border-b border-slate-200 pb-3 last:border-b-0"
+          className="border-b border-slate-200 pb-2 last:border-b-0"
         >
           <div className="flex flex-wrap items-baseline justify-between gap-2 text-[13px]">
             <div>
@@ -26,12 +26,12 @@ export function TimelineList({ items }: TimelineListProps) {
               {item.period}
             </span>
           </div>
-          <ul className="mt-3 space-y-1.5 text-[13px] text-slate-700">
+          <ul className="mt-2 space-y-1 text-[13px] text-slate-700">
             {item.highlights.map((highlight) => (
               <li key={highlight} className="flex gap-2">
                 <span
                   aria-hidden
-                  className="mt-[6px] h-1.5 w-1.5 rounded-full bg-slate-400"
+                  className="mt-[5px] h-1.5 w-1.5 rounded-full bg-slate-400"
                 />
                 <span className="leading-relaxed">{highlight}</span>
               </li>

@@ -7,8 +7,8 @@ type CVSectionProps = PropsWithChildren<{
 
 export function CVSection({ title, children, accent = false }: CVSectionProps) {
   return (
-    <section className="space-y-4">
-      <header className="flex items-center gap-3">
+    <section className="space-y-3">
+      <header className="flex items-center gap-2.5">
         <div
           className={`h-px w-10 ${accent ? "bg-slate-800" : "bg-slate-300"}`}
         />
@@ -16,7 +16,7 @@ export function CVSection({ title, children, accent = false }: CVSectionProps) {
           {title}
         </h2>
       </header>
-      <div className="space-y-2 text-[13px] text-slate-700 [&>p]:leading-relaxed">
+      <div className="space-y-1.5 text-[12.5px] text-slate-700 [&>p]:leading-relaxed">
         {children}
       </div>
     </section>

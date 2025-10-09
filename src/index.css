@@ -25,6 +25,15 @@ body {
 	print-color-adjust: exact;
 }
 
+.cv-page {
+	display: flex;
+	justify-content: center;
+}
+
+.cv-grid {
+	width: 100%;
+}
+
 @page {
 	size: A4;
 	margin: 14mm;
@@ -42,6 +51,30 @@ body {
 
 	#root {
 		min-height: auto;
+	}
+
+	.cv-page {
+		margin: 0 auto;
+		max-width: 188mm;
+		padding: 0;
+	}
+
+	.cv-grid {
+		gap: 8mm;
+		padding: 0;
+		grid-template-columns: 118mm 60mm;
+	}
+
+	.cv-grid > :first-child {
+		grid-column: 1 / -1;
+	}
+
+	.cv-main > * + * {
+		margin-top: 10mm !important;
+	}
+
+	.cv-sidebar {
+		margin: 0;
 	}
 
 	header,
