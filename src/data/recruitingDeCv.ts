@@ -51,6 +51,15 @@ export type CvProfile = {
   experiences: TimelineItem[];
   education: TimelineItem[];
   sidebarSections?: SidebarSectionConfig[];
+  language: "en" | "de";
+  labels: {
+    experience: string;
+    education: string;
+    personal: string;
+    contact: string;
+    skills: string;
+    languages: string;
+  };
 };
 
 export const recruitingDeCv: CvProfile = {
@@ -320,4 +329,13 @@ export const recruitingDeCv: CvProfile = {
       ],
     },
   ],
+  language: "de",
+  labels: {
+    experience: "Berufserfahrung",
+    education: "Ausbildung & Zertifizierungen",
+    personal: "Persönliche Daten",
+    contact: "Kontakt",
+    skills: "Fähigkeiten",
+    languages: "Sprachen",
+  },
 };

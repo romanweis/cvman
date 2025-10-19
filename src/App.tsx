@@ -14,11 +14,11 @@ function App() {
           <HeroCard profile={profile} />
         </div>
         <main className="cv-main space-y-6">
-          <CVSection title="Professional Experience" accent>
+          <CVSection title={profile.labels.experience} accent>
             <TimelineList items={profile.experiences} />
           </CVSection>
 
-          <CVSection title="Education & Certifications" accent>
+          <CVSection title={profile.labels.education} accent>
             <TimelineList items={profile.education} />
           </CVSection>
         </main>
