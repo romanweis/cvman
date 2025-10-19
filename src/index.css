@@ -6,7 +6,7 @@
 	background-color: #ffffff;
 	text-rendering: optimizeLegibility;
 	line-height: 1.45;
-	font-size: 15px;
+	font-size: 14px;
 }
 
 body {
@@ -42,11 +42,11 @@ body {
 @media print {
 	body {
 		background: #ffffff !important;
-		font-size: 12px;
+		font-size: 11px;
 	}
 
 	:root {
-		font-size: 12px;
+		font-size: 11px;
 	}
 
 	#root {

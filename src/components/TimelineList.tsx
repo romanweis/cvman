@@ -14,21 +14,21 @@ export function TimelineList({ items }: TimelineListProps) {
           className="border-b border-slate-200 pb-2 last:border-b-0"
           style={getBreakStyle(item.allowPageBreak)}
         >
-          <div className="flex flex-wrap items-baseline justify-between gap-2 text-[13px]">
+          <div className="flex flex-wrap items-baseline justify-between gap-2 text-[11px]">
             <div>
-              <h3 className="text-sm font-semibold text-slate-900">
+              <h3 className="text-[12px] font-semibold text-slate-900">
                 {item.role}
               </h3>
-              <p className="text-[12px] font-medium text-slate-600">
+              <p className="text-[10px] font-medium text-slate-600">
                 {item.company}
                 {item.location ? ` · ${item.location}` : ""}
               </p>
             </div>
-            <span className="text-[11px] font-semibold uppercase tracking-[0.15em] text-slate-500">
+            <span className="text-[9px] font-semibold uppercase tracking-[0.15em] text-slate-500">
               {item.period}
             </span>
           </div>
-          <ul className="mt-2 list-disc space-y-1 pl-6 text-[13px] text-slate-700 marker:text-slate-400">
+          <ul className="mt-2 list-disc space-y-1 pl-6 text-[11px] text-slate-700 marker:text-slate-400">
             {item.highlights.map((highlight) => (
               <li key={highlight} className="leading-relaxed">
                 {highlight}

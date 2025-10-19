@@ -112,8 +112,8 @@ export const smgEnCv: CvProfile = {
     {
       name: "Cloud & Infrastructure",
       items: [
+        "Azure Cloud Services",
         "Google Cloud Platform (GCP)",
-        "Multi-Cloud (Azure/AWS)",
         "Kubernetes & Docker",
         "Infrastructure as Code",
       ],
@@ -130,7 +130,6 @@ export const smgEnCv: CvProfile = {
     {
       name: "Architecture Governance",
       items: [
-        "Technical Roadmapping",
         "Architecture Decision Records",
         "Technology Evaluation & PoCs",
         "Cross-team Alignment",
@@ -160,7 +159,6 @@ export const smgEnCv: CvProfile = {
         "CI/CD Pipelines",
         "Observability & Monitoring",
         "Testing Strategies",
-        "Release Management",
       ],
     },
   ],
@@ -173,7 +171,6 @@ export const smgEnCv: CvProfile = {
       highlights: [
         "Leading architectural evolution of Switzerland's largest e-commerce platform serving millions of customers",
         "Applying Domain-Driven Design principles to design scalable warehouse logistics systems handling thousands of daily orders",
-        "Mentoring cross-functional teams on architecture patterns, microservices design, and cloud-native best practices",
         "Driving technology modernization initiatives and establishing architecture governance frameworks",
         "Pioneering AI-assisted development workflows and tooling to enhance engineering productivity",
       ],
@@ -197,7 +194,7 @@ export const smgEnCv: CvProfile = {
       period: "Jun. 2022 - Apr. 2023",
       allowPageBreak: true,
       highlights: [
-        "Developed features for insurance platform using React Relay, Hot Chocolate GraphQL, .NET/C#, MongoDB, and Kubernetes",
+        "Developed features for insurance platform using React Relay, GraphQL, .NET/C#, MongoDB, and Kubernetes",
         "Led data migration initiatives from SQL Server to SAP C4C affecting millions of customer records",
       ],
     },
@@ -209,9 +206,9 @@ export const smgEnCv: CvProfile = {
       allowPageBreak: true,
       highlights: [
         "Founded and architected SaaS platform for fitness and wellness industry from concept to market launch",
-        "Designed domain model for booking, payments, and customer management using Domain-driven Design",
-        "Built multi-cloud infrastructure spanning Azure, GCP, AWS, and Hetzner with automatic failover capabilities",
-        "Developed multiple web frontends using Angular, React, and Next.js with shared design system",
+        "Designed domain model for booking, payments, and customer management applying Domain-driven Design pricniples",
+        "Built multi-cloud infrastructure spanning Azure, GCP, AWS, and Hetzner",
+        "Developed multiple web frontends using Angular, React, and Next.js",
       ],
     },
     {
@@ -223,7 +220,6 @@ export const smgEnCv: CvProfile = {
       highlights: [
         "Introduced Scrum methodologies and Continuous Delivery practices using Azure DevOps",
         "Mentored junior developers in software architecture principles and clean code practices",
-        "Modernized legacy logistics applications serving Switzerland's largest parcel delivery network",
       ],
     },
     {
@@ -262,29 +258,29 @@ export const smgEnCv: CvProfile = {
   ],
   education: [
     {
-      role: "Master of Computer Science (Grade 1.4/6.0)",
+      role: "Master of Computer Science (Grade 1.4)",
       company: "University of Applied Sciences Trier - Distance Learning",
       location: "Trier / Remote",
       period: "Graduated 2019",
       highlights: [
-        "Master's Thesis: Domain-Driven Design, Microservices Architecture, CQRS, Event Sourcing (Grade 1.0/6.0)",
+        "Master's Thesis: Domain-Driven Design, Microservices Architecture, CQRS, Event Sourcing (Grade 1.0)",
         "Completed distance learning program alongside full-time software engineering projects",
         "Specialized in distributed systems, software architecture patterns, and enterprise integration",
       ],
     },
     {
-      role: "Diploma in Mechanical Engineering (Grade 1.7/6.0)",
+      role: "Diploma in Mechanical Engineering (Grade 1.7)",
       company: "Technical University of Kaiserslautern",
       location: "Kaiserslautern",
       period: "Graduated 2012",
       highlights: [
         "Specializations: Energy Technology, Mechanical Engineering Fundamentals, Fluid Mechanics",
-        "Diploma Thesis at Rolls-Royce, Dahlewitz: Numerical Investigations & CFD Simulations of Casing Treatments (Grade 1.0/6.0)",
+        "Diploma Thesis at Rolls-Royce, Dahlewitz: Numerical Investigations & CFD Simulations of Casing Treatments (Grade 1.0)",
         "Strong foundation in systems thinking and optimization principles applied to software engineering",
       ],
     },
     {
-      role: "High School Diploma (Grade 2.2/6.0)",
+      role: "High School Diploma (Grade 2.2)",
       company: "Christian von Mannlich Gymnasium",
       location: "Homburg (Saar)",
       period: "Graduated 2007",
