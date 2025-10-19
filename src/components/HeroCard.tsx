@@ -1,4 +1,4 @@
-import type { CvProfile } from "../data/recruitingDeCv";
+import type { CvProfile } from "../data/smgEnCv";
 
 type HeroCardProps = {
   profile: CvProfile;

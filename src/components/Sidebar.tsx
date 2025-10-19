@@ -1,5 +1,5 @@
 import type { CSSProperties, ReactNode } from "react";
-import type { CvProfile, SidebarSectionConfig } from "../data/recruitingDeCv";
+import type { CvProfile, SidebarSectionConfig } from "../data/smgEnCv";
 
 function SectionContainer({
   title,
@@ -50,7 +50,7 @@ export function Sidebar({ profile }: { profile: CvProfile }) {
             return (
               <SectionContainer
                 key={key}
-                title="Persönliche Daten"
+                title="Personal Information"
                 allowPageBreak={allowPageBreak}
               >
                 <ul className="space-y-1">
@@ -71,7 +71,7 @@ export function Sidebar({ profile }: { profile: CvProfile }) {
             return (
               <SectionContainer
                 key={key}
-                title="Kontakt"
+                title="Contact"
                 allowPageBreak={allowPageBreak}
               >
                 <ul className="space-y-[2px] text-slate-600">
@@ -87,7 +87,7 @@ export function Sidebar({ profile }: { profile: CvProfile }) {
             return (
               <SectionContainer
                 key={key}
-                title="Kompetenzen"
+                title="Skills"
                 allowPageBreak={allowPageBreak}
               >
                 <div className="space-y-3">
@@ -114,7 +114,7 @@ export function Sidebar({ profile }: { profile: CvProfile }) {
             return (
               <SectionContainer
                 key={key}
-                title="Sprachen"
+                title="Languages"
                 allowPageBreak={allowPageBreak}
               >
                 <ul className="space-y-[2px] text-[11.5px]">

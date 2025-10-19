@@ -58,7 +58,7 @@ export const smgEnCv: CvProfile = {
   title: "Domain Architect & Software Engineer",
   availability: "Currently Software Architect at Digitec Galaxus",
   summary:
-    "Experienced Architect specializing in large-scale platform modernization, Domain-Driven Design, and cloud-native architectures. Proven track record in e-commerce, marketplace platforms, and financial domains with CHF billion+ transaction volumes.",
+    "Experienced Software Engineer & Architect specializing in large-scale platform modernization, Domain-Driven Design, and cloud-native architectures. Proven track record in e-commerce, marketplace platforms, and financial domains with CHF billion+ transaction volumes.",
   contact: [
     { label: "roman.weis@proton.me", url: "mailto:roman.weis@proton.me" },
     { label: "+41 76 42 44 186", url: "tel:+41764244186" },
