@@ -58,9 +58,12 @@ export const recruitingDeCv: CvProfile = {
   title: "Software Architect & Fullstack Engineer",
   availability: "Aktuell Software Architect bei Digitec Galaxus",
   summary:
-    "Schwerpunkt auf Software-Architekturen und Agentic AI. Erfahrung in E-Commerce, Lagerlogistik, Energie-, Versicherungs- und Finanzbranchen.",
+    "Schwerpunkt auf Backend, Software-Architekturen und Agentic AI. Erfahrung in E-Commerce, Lagerlogistik, Energie-, Versicherungs- und Finanzbranchen.",
   contact: [
-    { label: "roman.weis@proton.me", url: "mailto:roman.weis@proton.me" },
+    {
+      label: "roman.weis@protonmail.com",
+      url: "mailto:roman.weis@protonmail.com",
+    },
     { label: "+41 76 42 44 186", url: "tel:+41764244186" },
   ],
   personal: [
@@ -83,14 +86,16 @@ export const recruitingDeCv: CvProfile = {
   skills: [
     {
       name: "Programmiersprachen",
-      items: ["C#", "TypeScript", "Java", "Python"],
+      items: ["C#", "TypeScript", "Python"],
     },
     {
       name: "Architektur & Engineering",
       items: [
         "Domain-driven Design",
-        "Strukturierter Monolith, Microservices",
-        "Skalierbarkeit, Testbarkeit, Performance, Resilienz",
+        "Quality-driven Software Architecture",
+        "Design patterns",
+        "Strukturierter Monolith",
+        "Self-contained Systems",
       ],
     },
     {
@@ -106,48 +111,65 @@ export const recruitingDeCv: CvProfile = {
     {
       name: "Daten & Persistenz",
       items: [
-        "SQL/NoSQL, Datenmodellierung",
-        "Transaktionen/Konsistenz, Caching",
+        "RDBMS: MS SQL Server, PostgreSQL",
+        "NoSQL: MongoDB, RavenDB, Redis, Neo4j",
+        "Datenmodellierung",
+        "Performance Tuning",
+      ],
+    },
+    {
+      name: "Messaging Systeme",
+      items: [
+        "Azure Service Bus",
+        "NServiceBus",
+        "Kafka",
+        "RabbitMQ",
         "Event Sourcing/Streaming",
       ],
     },
     {
       name: "APIs & Integration",
       items: [
+        "REST/GraphQL/gRPC",
         "API-First, Contract-driven",
         "Schema design",
-        "REST/GraphQL/gRPC, Versionierung, AuthN/AuthZ",
+        "Versionierung, AuthN/AuthZ",
       ],
     },
     {
       name: "KI-gestützte Entwicklung",
       items: [
-        "KI in Dev-Workflows",
-        "Agentic AI, MCP Server, Qualität & Governance",
+        "Code Generation, Refactoring, Testing",
+        "GitHub Copilot coding agent",
+        "MCP Server",
+        "Sematic Kernel",
       ],
     },
     {
       name: "Frontend",
       items: [
-        "Design Systems, Komponenten, State-Management",
+        "React, Next.js, Angular",
+        "GraphQL: React/Relay",
+        "Blazor",
+        "Design Systems: tailwindcss, material ui",
         "Performance, Accessibility",
-        "Federated GraphQL",
-        "Enterprise-Frontends mit React, Angular, Blazor",
       ],
     },
     {
       name: "Cloud & Plattform",
       items: [
         "Multi-Cloud (Azure/AWS/GCP/Hetzner)",
-        "Docker, Kubernetes",
-        "Infrastructure as Code",
+        "Docker",
+        "Kubernetes",
+        "Terraform",
       ],
     },
     {
       name: "DevOps & Reliability",
       items: [
+        "Github Actions, Azure DevOps, TeamCity",
         "CI/CD, Release-Strategien",
-        "Testautomatisierung, SRE (SLIs/SLOs, Incident Response)",
+        "Testautomatisierung: Playwright, Testcontainers",
       ],
     },
     {
@@ -161,6 +183,7 @@ export const recruitingDeCv: CvProfile = {
       name: "Security & Compliance",
       items: [
         "Zero Trust, Secrets-Management",
+        "Encryption (at-rest/in-transit)",
         "Auditierbarkeit, Datenschutz (z. B. DSGVO)",
       ],
     },
