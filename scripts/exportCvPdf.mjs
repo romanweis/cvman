@@ -69,7 +69,7 @@ async function main() {
       await page.waitForTimeout(1000);
       await page.emulateMedia({ media: "print" });
 
-      const outputPath = resolve(rootDir, "resources", "applications", "recruiting-de", "cv.pdf");
+      const outputPath = resolve(rootDir, "resources", "applications", "smg-en", "cv.pdf");
       await mkdir(dirname(outputPath), { recursive: true });
       await page.pdf({
         path: outputPath,
