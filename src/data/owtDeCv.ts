@@ -35,10 +35,11 @@ export const owtDeCv: CvProfile = {
     {
       name: "Team Leadership",
       items: [
-        "Technische Führung & Mentoring von Entwicklerteams",
+        "Technische Führung",
+        "Mentoring von Entwicklerteams",
         "Agile Methoden (Scrum)",
-        "Code Reviews, Clean Code & Qualitätssicherung",
-        "Stakeholder-Kommunikation & Cross-Team Alignment",
+        "Stakeholder-Kommunikation",
+        "Cross-Team Alignment",
       ],
     },
     {
@@ -48,7 +49,7 @@ export const owtDeCv: CvProfile = {
         "Event-Driven Architecture (EDA)",
         "Modular Monolith",
         "Self-contained Systems & Microservices",
-        "Clean Architecutre & Hexagonale Architektur",
+        "Clean Architecutre",
         "Verical Slice Architecture",
       ],
     },
