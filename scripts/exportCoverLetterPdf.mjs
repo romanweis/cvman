@@ -1,8 +1,8 @@
-import { chromium } from "playwright";
 import { readFileSync } from "fs";
-import { fileURLToPath } from "url";
-import { dirname, join } from "path";
 import { marked } from "marked";
+import { dirname, join } from "path";
+import { chromium } from "playwright";
+import { fileURLToPath } from "url";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -10,11 +10,11 @@ const rootDir = join(__dirname, "..");
 
 const coverLetterPath = join(
   rootDir,
-  "resources/applications/smg-en/cover-letter.md"
+  "resources/applications/owt-de/cover-letter.md"
 );
 const outputPath = join(
   rootDir,
-  "resources/applications/smg-en/cover-letter.pdf"
+  "resources/applications/owt-de/cover-letter.pdf"
 );
 
 console.log("▶︎ Converting cover letter to PDF...");

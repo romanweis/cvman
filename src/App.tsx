@@ -2,10 +2,10 @@ import { CVSection } from "./components/CVSection";
 import { HeroCard } from "./components/HeroCard";
 import { Sidebar } from "./components/Sidebar";
 import { TimelineList } from "./components/TimelineList";
-import { smgEnCv } from "./data/smgEnCv";
+import { owtDeCv } from "./data/owtDeCv";
 
 function App() {
-  const profile = smgEnCv;
+  const profile = owtDeCv;
 
   return (
     <div className="cv-page min-h-screen bg-white text-slate-900">

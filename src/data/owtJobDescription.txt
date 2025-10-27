@@ -1,0 +1,44 @@
+Description
+OWT ist ein Technologie- und Strategieberatungsunternehmen und eine Tochtergesellschaft der Swisscom. Wir helfen unseren Kunden bei der Digitalisierung ihrer Prozesse, der Umsetzung von innovativen Transformationsprojekten sowie der Implementierung neuer Technologien.
+
+Erfahre mehr über  auf  oder .
+
+Was Dich begeistern wird
+
+Eine junge, dynamische und von Zusammenarbeit geprägte Kultur, die von einer gemeinsamen Leidenschaft für Digitalisierung und neue Technologien angetrieben wird, und welche die Anliegen unserer Kunden in den Mittelpunkt stellt
+Eine Umgebung, in der das Erlernen neuer und die Entwicklung bereits vorhandener Fähigkeiten durch einen klaren Karrierepfad gefördert wird
+Ein hybrides Arbeitsmodell, das es Dir ermöglicht, vom Homeoffice aus mit Kollegen und Kunden zu arbeiten
+Die Möglichkeit, mit renommierten Unternehmen an einer Vielzahl von Aufgaben rund um aufkommende Technologien zu arbeiten
+Die Chance, von Kollegen zu profitieren, die Experten auf ihrem Gebiet sind, und die immer bereit sind, ihr Fachwissen zu teilen oder konstruktives Feedback zu geben
+Ein bewährtes Mentorenmodell mit einer Person, die Dich in den Arbeitsalltag bei OWT einführt und Dich in Deiner beruflichen und persönlichen Entwicklung begleitet
+Sehr gut gelegene Büros im Herzen von Genf, Lausanne, Zürich und Bern, die leicht zu erreichen sind
+Ein kompetitives Gehalt bei gesunder Work-Life-Balance
+Was Du tun wirst
+
+Als Technical Team Lead arbeitest Du zusammen mit unseren Projektmanagern, Designern sowie Front- und Backend-Profis an der Entwicklung erstklassiger Software-Lösungen
+Anhand von Entwürfen und Kundenanforderungen erarbeitest Du neue, voll funktionsfähige Software-Anwendungen
+Du setzt modernste Technologien und Tools ein, um anspruchsvolle Kundenprojekte in verschiedensten Branchen zu realisieren
+Du unterstützt interdisziplinäre Entwicklerteams als Coach und Führungsperson
+Du hilfst dem Consulting- und Salesteam bei Angeboten, Kundengesprächen und Workshops
+Du beteiligst Dich aktiv an Kundenprojekten, der Erarbeitung der Gesamtlösung und der Qualitätssicherstellung
+Du bringst kreative Ideen ein und trägst zur Weiterentwicklung unserer Expertise bei
+Was Du fachlich mitbringst
+
+Du hast ein abgeschlossenes Studium, vorzugsweise in Computer Sciences
+Du hast mindestens 5 Jahre Erfahrung in der Softwareentwicklung
+Du kennst Dich bestens mit Backend-Technologien aus, vorzugsweise Java, Spring Boot oder .NET
+Du verstehst Software-Architekturen inkl. Datenbank-Design und REST-Schnittstellen
+Du hattest schon Berührungspunkte mit CI/CD und DevOps
+Du konntest bereits Erfahrung als Team Lead sammeln und bist in der Lage, mit gutem Beispiel voranzugehen, um Dein Team zu motivieren
+Erfahrung mit Frontend-Technologien (z.B. Angular, React) oder Mobile-Technologien (z.B. iOS, Android, React Native, Flutter) ist von Vorteil
+Erfahrung mit AWS, Azure oder Google Cloud ist ebenfalls ein Plus
+Was Dich ausmacht
+
+Du besitzt ausgezeichnete analytische und technische Fähigkeiten und kannst mit Stakeholdern aus dem Business und der IT auf Augenhöhe kommunizieren
+Du sprichst fliessend Deutsch und Englisch (mind. Niveau C1), Französisch ist ein Plus
+Du bist ein starker Teamplayer, arbeitest aber auch gerne selbständig
+Du legst Wert auf transparente Kommunikation und eine offene Feedbackkultur
+Du bringst Begeisterung und Leidenschaft für neue Technologien mit
+Du hast Freude an neuen, abwechslungsreichen Herausforderungen
+Du schätzt den persönlichen Austausch mit Kunden und bist bereit, diese gelegentlich vor Ort zu besuchen
+Haben wir Dein Interesse geweckt? Dann freuen wir uns auf Deine Bewerbung!
