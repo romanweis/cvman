@@ -68,7 +68,7 @@ export const smgEnCv: CvProfile = {
   title: "Software Architect & Engineer",
   availability: "Currently Software Architect at Digitec Galaxus",
   summary:
-    "Experienced Software Engineer & Architect specializing in Domain-Driven Design, large-scale platform modernization, and cloud-native architectures.",
+    "Experienced Software Engineer & Architect specializing in Domain-Driven Design, legacy applications modernization, and cloud-native architectures.",
   contact: [
     { label: "roman.weis@proton.me", url: "mailto:roman.weis@proton.me" },
     { label: "+41 76 42 44 186", url: "tel:+41764244186" },
@@ -105,7 +105,7 @@ export const smgEnCv: CvProfile = {
       items: [
         "Microservices & Distributed Systems",
         "Event-Driven Architecture",
-        "API-First Design",
+        "Modular Monolith",
         "Scalability & Performance",
       ],
     },
@@ -122,7 +122,7 @@ export const smgEnCv: CvProfile = {
       name: "Programming & Technologies",
       items: [
         "C#/.NET Core",
-        "TypeScript/JavaScript",
+        "TypeScript, Reat, Angular, Next.js",
         "Java & Python",
         "GraphQL, REST APIs",
       ],
@@ -148,9 +148,8 @@ export const smgEnCv: CvProfile = {
       name: "Marketplace & E-commerce",
       items: [
         "Payment Systems Integration",
-        "Order Management Systems",
-        "Inventory & Catalog Management",
-        "User Experience Platforms",
+        "Online Booking Systems",
+        "SEO techniques",
       ],
     },
     {
@@ -170,8 +169,9 @@ export const smgEnCv: CvProfile = {
       period: "Aug. 2024 - Present",
       highlights: [
         "Leading architectural evolution of Switzerland's largest e-commerce platform serving millions of customers",
-        "Applying Domain-Driven Design principles to design scalable warehouse logistics systems handling thousands of daily orders",
-        "Driving technology modernization initiatives and establishing architecture governance frameworks",
+        "Modernize and improve legacy systems to meet the demands of a rapidly growing online retail business",
+        "Applying DDD principles to improve resilience and scalability of warehouse logistics systems",
+        "Driving cross-team initiatives in hihgly complex business domains",
         "Pioneering AI-assisted development workflows and tooling to enhance engineering productivity",
       ],
     },
@@ -182,8 +182,7 @@ export const smgEnCv: CvProfile = {
       period: "May 2023 - Jun. 2024",
       allowPageBreak: true,
       highlights: [
-        "Architected and developed energy data platform in microservices architecture supporting international energy trading operations",
-        "Implemented event-driven systems with .NET/C#, GraphQL, PostgreSQL, and Blazor for market data processing",
+        "Architected and developed an energy data platform supporting international trading operations",
         "Built automated infrastructure and CI/CD pipelines using Azure, Terraform, TeamCity, and Octopus Deploy",
       ],
     },
@@ -206,7 +205,6 @@ export const smgEnCv: CvProfile = {
       allowPageBreak: true,
       highlights: [
         "Founded and architected SaaS platform for fitness and wellness industry from concept to market launch",
-        "Designed domain model for booking, payments, and customer management applying Domain-driven Design pricniples",
         "Built multi-cloud infrastructure spanning Azure, GCP, AWS, and Hetzner",
         "Developed multiple web frontends using Angular, React, and Next.js",
       ],
@@ -230,7 +228,7 @@ export const smgEnCv: CvProfile = {
       allowPageBreak: true,
       highlights: [
         "Modernized complex legacy tax reporting system using .NET Core, SQL Server, Docker, RavenDB, and Angular",
-        "Contributed as fullstack engineer across multiple Scrum teams for private banking platform serving high-net-worth clients",
+        "Contributed as fullstack engineer across multiple Scrum teams for a private banking platform serving high-net-worth clients",
         "Applied Domain-Driven Design principles in Master's thesis focusing on software architecture modernization",
       ],
     },
@@ -240,7 +238,7 @@ export const smgEnCv: CvProfile = {
       location: "Zurich",
       period: "Jan. 2017 - May 2017",
       highlights: [
-        "Developed Java application for forex trading strategy backtesting with real-time market data analysis",
+        "Developed a Java application for forex trading strategy backtesting with real-time market data analysis",
       ],
     },
     {
@@ -276,7 +274,6 @@ export const smgEnCv: CvProfile = {
       highlights: [
         "Specializations: Energy Technology, Mechanical Engineering Fundamentals, Fluid Mechanics",
         "Diploma Thesis at Rolls-Royce, Dahlewitz: Numerical Investigations & CFD Simulations of Casing Treatments (Grade 1.0)",
-        "Strong foundation in systems thinking and optimization principles applied to software engineering",
       ],
     },
     {

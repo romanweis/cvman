@@ -1,0 +1,105 @@
+Domain Architect Ricardo Platform (f/m/d) | 80-100% | Hybrid working model | Zürich Switzerland
+Thurgauerstrasse 36, Zürich, Switzerland
+Full-time
+Company Description
+Welcome to SMG Swiss Marketplace Group AG
+
+SMG is a pioneering network of online marketplaces and a leading European digital company that simplifies people’s lives with forward-looking products.
+We operate leading marketplaces across real estate, automotive, general classifieds, and finance & insurance. We’re driven by our values: Better Together, Aim High, and Act Responsibly.
+
+Meet the team! 🌟
+
+Jéremy Calles - Head of Engineering Manager - LinkedIn
+At SMG, people are our greatest strength. You'll join the Ricardo Platform team - a diverse and dynamic group spread across several countries, all working to reinvent Switzerland’s most iconic marketplace.
+
+ 
+
+Job Description
+Your Mission 💡
+
+As a Domain Architect for the Ricardo Platform, part of the General Marketplace Business Unit, you will own and evolve the architectural vision of Switzerland’s leading online auction marketplace. This is a high-impact role where you will shape the future of a platform handling close to CHF 1 billion in transactions annually.
+
+You’ll translate business strategy into scalable technical design, help teams implement architectural best practices, and ensure cohesion across contexts like listing, selling, buying, and payments.
+
+We’re on a journey to modernise a beloved platform — and we need your expertise to guide it.
+ 
+
+Specifically, you will:
+
+Design and evolve the Ricardo domain architecture using Domain-Driven Design (DDD)
+Define subdomain structures and ensure architectural coherence across teams
+Translate business goals into a long-term technical roadmap
+Collaborate with Team Architects, Engineering Managers, and Product Leads to align strategy and delivery
+Lead domain-wide modernisation initiatives such as authentication revamps or event-driven architecture
+Evaluate new technologies, run PoCs, and introduce innovations that improve developer experience and system scalability
+Promote a culture of learning by mentoring engineers and facilitating architectural workshops
+Your responsibilities will evolve as we grow.
+
+ 
+
+Qualifications
+What will you bring to the ride? 🚀
+
+Significant experience in software architecture roles, ideally within large-scale platforms
+Strong foundation in Domain-Driven Design and building decoupled systems
+Hands-on knowledge of cloud-native tech (preferably GCP, Google Cloud Platform), microservices, and distributed systems
+Strategic mindset and ability to align technical direction with business goals
+Excellent communicator who can drive consensus across teams and stakeholders
+Passion for mentoring and raising architectural maturity across the organisation
+We welcome all career paths — if you’re passionate about building great systems, we want to hear from you!
+
+ 
+
+Additional Information
+What do we offer? 🤝
+
+6 weeks of holidays per year (plus option to buy 10 extra)
+40-hour work week with flexitime (capped at 45 hours)
+A hybrid work setup with flexibility to work remotely
+Generous parental leave: 18 weeks for maternity and 6 weeks for paternity/adoption
+SBB Half-Fare Card and first-class travel between SMG offices in Switzerland
+Gender-neutral pay and transparent career paths
+Choose your gear: Mac or Windows laptop, and iPhone, Samsung, or Pixel mobile
+An inclusive and innovative environment where your voice matters
+ 
+Recruitment Process 📆
+
+We keep hiring simple and human:
+
+Initial Video-Call with one of our Recruiters (30min)
+
+Technical Interview / Meet the Hiring Manager (60min)
+
+Case Study & Team Fit Conversation (90min)
+
+At SMG, we value unique perspectives and believe in the potential of every individual. We welcome applicants from all backgrounds and encourage you to apply, even if you don’t meet every requirement. Together, we grow skills, embrace differences, and make an impact.
+
+ 
+
+Apply now
+To take this opportunity, send us your detailed CV and feel free to add any supporting documents we need to look at in order to understand that you are the perfect fit.
+
+ 
+
+
+
+#LI-Hybrid
+
+About Us
+
+SMG Swiss Marketplace Group AG. is a pioneering network of online marketplaces and cutting-edge European digital company that simplifies people’s lives with innovative products.
+
+SMG Swiss Marketplace Group AG. provides customers the best tools to meet their life decision needs. The portfolio includes Real Estate (ImmoScout24, Homegate, Flatfox, alle-immobilien.ch, Immostreet.ch, home.ch, Publimmo, Acheter-Louer.ch, CASASOFT, IAZI), Automotive (AutoScout24, MotoScout24), General Marketplaces (anibis.ch, tutti.ch, Ricardo) and Finance & Insurance (FinanceScout24, moneyland.ch).
+The company was founded in November 2021 by TX Group AG, Ringier AG, La Mobilière and General Atlantic.
+
+ 
+
+ 
+
+ 
+
+ 
+
+Disclaimer
+
+SMG Swiss Marketplace Group AG primarily engages directly with candidates. We do not accept unsolicited resumes or candidate profiles from recruitment agencies unless we have specifically requested their assistance for particular roles. Any submissions made without a prior request from our Talent Acquisition team will not be acknowledged or considered. We appreciate the understanding and cooperation of recruitment agencies in respecting this policy.
