@@ -8,13 +8,18 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 const rootDir = join(__dirname, "..");
 
+// Allow selecting the application folder via CLI arg, defaulting to previous behavior
+// Usage: node scripts/exportCoverLetterPdf.mjs <application-folder>
+// Examples: lead-net-en, owt-de, smg-en, recruiting-de
+const appFolder = process.argv[2] || "owt-de";
+
 const coverLetterPath = join(
   rootDir,
-  "resources/applications/owt-de/cover-letter.md"
+  `resources/applications/${appFolder}/cover-letter.md`
 );
 const outputPath = join(
   rootDir,
-  "resources/applications/owt-de/cover-letter.pdf"
+  `resources/applications/${appFolder}/cover-letter.pdf`
 );
 
 console.log("▶︎ Converting cover letter to PDF...");

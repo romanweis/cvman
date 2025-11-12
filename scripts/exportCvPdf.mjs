@@ -33,6 +33,10 @@ async function closeServer(server) {
 }
 
 async function main() {
+  // Allow selecting the application folder via CLI arg, defaulting to previous behavior
+  // Usage: node scripts/exportCvPdf.mjs <application-folder>
+  // Examples: lead-net-en, owt-de, smg-en, recruiting-de
+  const appFolder = process.argv[2] || "owt-de";
   console.log("▶︎ Building project...");
   const npmExecPath = process.env.npm_execpath;
   const nodeExecPath = process.env.npm_node_execpath || process.execPath;
@@ -59,7 +63,7 @@ async function main() {
       },
     });
 
-    const resolvedUrl = server.resolvedUrls?.local?.[0] ?? "http://127.0.0.1:4173/";
+  const resolvedUrl = server.resolvedUrls?.local?.[0] ?? "http://127.0.0.1:4173/";
     console.log(`▶︎ Rendering CV from ${resolvedUrl}`);
 
     const browser = await chromium.launch();
@@ -69,7 +73,7 @@ async function main() {
       await page.waitForTimeout(1000);
       await page.emulateMedia({ media: "print" });
 
-      const outputPath = resolve(rootDir, "resources", "applications", "owt-de", "cv.pdf");
+  const outputPath = resolve(rootDir, "resources", "applications", appFolder, "cv.pdf");
       await mkdir(dirname(outputPath), { recursive: true });
       await page.pdf({
         path: outputPath,

@@ -30,8 +30,8 @@ function SectionContainer({
 const fallbackSections: SidebarSectionConfig[] = [
   { key: "personal" },
   { key: "contact" },
-  { key: "skills", allowPageBreak: true },
-  { key: "languages", allowPageBreak: true },
+  { key: "skills", allowPageBreak: false },
+  { key: "languages", allowPageBreak: false },
 ];
 
 const skillGroupBreakStyle: CSSProperties = {
