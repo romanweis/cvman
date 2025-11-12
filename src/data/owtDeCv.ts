@@ -135,7 +135,7 @@ export const owtDeCv: CvProfile = {
       period: "Aug. 2024 - heute",
       highlights: [
         "Architektonische Weiterentwicklung der grössten schweizerischen Lagerlogistikplattform mit Millionen von Artikeln und Bestellungen",
-        "Technische Führung, Mentoring und Coaching eines Teams von 6 Software-Ingenieuren",
+        "Technische Führung, Mentoring und Coaching eines Teams von 6 Softwareentwicklern",
         "Planung und Koordination von teamübergreifenden Initiativen",
         "Einführung von LLM-gestützten Entwicklungsworkflows zur Steigerung der Produktivität",
       ],
