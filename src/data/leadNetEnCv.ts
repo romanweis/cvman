@@ -52,7 +52,7 @@ export const leadNetEnCv: CvProfile = {
     {
       name: "Domain Architecture",
       items: [
-        "Domain-Driven Design (DDD)",
+        "Domain-driven Design (DDD)",
         "Strategic Domain Modeling",
         "Bounded Context Design",
         "Event Storming & Context Mapping",

@@ -8,7 +8,7 @@ Zurich, Switzerland
 
 Dear Hiring Team,
 
-I’m excited to apply for the Lead .NET Architect role with your client. I bring 8+ years across software architecture and full‑stack engineering with a strong emphasis on .NET, domain‑driven design, and evolutionary modernization. I design systems that are secure, scalable, and maintainable—and I enable teams to deliver them consistently through clear architecture guardrails, mentoring, and high‑leverage delivery practices.
+I'm excited to apply for the Lead .NET Architect role with your client. I bring 8+ years across software architecture and full‑stack engineering with a strong emphasis on .NET, Domain‑driven Design, and evolutionary modernization. I have a strong background in consulting, having worked as a Software Engineer at Zühlke Engineering (a leading Swiss consultancy) where I delivered enterprise solutions for clients in the financial sector, and subsequently as an independent contractor serving organizations like Axpo and Swiss Life with specialized .NET architecture and modernization expertise.
 
 Highlights that map to your needs:
 
