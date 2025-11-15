@@ -2,10 +2,10 @@ import { CVSection } from "./components/CVSection";
 import { HeroCard } from "./components/HeroCard";
 import { Sidebar } from "./components/Sidebar";
 import { TimelineList } from "./components/TimelineList";
-import { leadNetEnCv } from "./data/leadNetEnCv";
+import { bcgEnCv } from "./data/bcgEnCv";
 
 function App() {
-  const profile = leadNetEnCv;
+  const profile = bcgEnCv;
 
   return (
     <div className="cv-page min-h-screen bg-white text-slate-900">
