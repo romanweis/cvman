@@ -2,11 +2,9 @@ import { CVSection } from "./components/CVSection";
 import { HeroCard } from "./components/HeroCard";
 import { Sidebar } from "./components/Sidebar";
 import { TimelineList } from "./components/TimelineList";
-import { bcgEnCv } from "./data/bcgEnCv";
+import { leadNetEnCv as profile } from "./data/leadNetEnCv";
 
 function App() {
-  const profile = bcgEnCv;
-
   return (
     <div className="cv-page min-h-screen bg-white text-slate-900">
       <div className="cv-grid mx-auto grid max-w-5xl gap-8 px-5 py-8 lg:grid-cols-[minmax(0,1.75fr)_minmax(0,1fr)] lg:gap-10">
