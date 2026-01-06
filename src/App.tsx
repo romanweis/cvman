@@ -2,7 +2,7 @@ import { CVSection } from "./components/CVSection";
 import { HeroCard } from "./components/HeroCard";
 import { Sidebar } from "./components/Sidebar";
 import { TimelineList } from "./components/TimelineList";
-import { oliverBernardEnCv as profile } from "./data/oliverBernardEnCv";
+import { recruitingDeCv as profile } from "./data/recruitingDeCv";
 
 function App() {
   return (
