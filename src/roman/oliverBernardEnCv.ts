@@ -1,74 +1,12 @@
-export type ContactLink = {
-  label: string;
-  url: string;
-};
+import type { CvProfile } from "../types/cv";
 
-export type DetailItem = {
-  label: string;
-  value: string;
-};
-
-export type TimelineItem = {
-  role: string;
-  company: string;
-  location: string;
-  period: string;
-  highlights: string[];
-  allowPageBreak?: boolean;
-};
-
-export type ProjectHighlight = {
-  title: string;
-  role: string;
-  context: string;
-  outcome: string;
-  techStack: string[];
-  description?: string;
-};
-
-export type SkillGroup = {
-  name: string;
-  items: string[];
-};
-
-export type SidebarSectionKey = "personal" | "contact" | "skills" | "languages";
-
-export type SidebarSectionConfig = {
-  key: SidebarSectionKey;
-  allowPageBreak?: boolean;
-};
-
-export type CvProfile = {
-  name: string;
-  title: string;
-  availability: string;
-  summary: string;
-  contact: ContactLink[];
-  personal: DetailItem[];
-  location: string;
-  languages: { language: string; level: string }[];
-  skills: SkillGroup[];
-  experiences: TimelineItem[];
-  education: TimelineItem[];
-  sidebarSections?: SidebarSectionConfig[];
-  language: "en" | "de";
-  labels: {
-    experience: string;
-    education: string;
-    personal: string;
-    contact: string;
-    skills: string;
-    languages: string;
-  };
-};
-
-export const smgEnCv: CvProfile = {
+export const oliverBernardEnCv: CvProfile = {
   language: "en",
   name: "Roman Weis",
-  title: "Software Architect & Engineer",
+  title: "Software Architect",
   availability: "Currently Software Architect at Digitec Galaxus",
   summary:
-    "Experienced Software Engineer & Architect specializing in Domain-Driven Design, legacy applications modernization, and cloud-native architectures.",
+    "Software Architect & Engineer combining deep system architecture, hands-on delivery, and emerging tech experimentation to ship resilient customer experiences across AI, web, and platform domains.",
   contact: [
     { label: "roman.weis@proton.me", url: "mailto:roman.weis@proton.me" },
     { label: "+41 76 42 44 186", url: "tel:+41764244186" },
@@ -80,8 +18,8 @@ export const smgEnCv: CvProfile = {
   ],
   location: "Zurich, Switzerland",
   languages: [
-    { language: "German", level: "Native" },
     { language: "English", level: "Fluent" },
+    { language: "German", level: "Native" },
     { language: "Russian", level: "Fluent" },
   ],
   sidebarSections: [
@@ -170,9 +108,9 @@ export const smgEnCv: CvProfile = {
       highlights: [
         "Leading architectural evolution of Switzerland's largest e-commerce platform serving millions of customers",
         "Modernize and improve legacy systems to meet the demands of a rapidly growing online retail business",
-        "Applying DDD principles to improve resilience and scalability of warehouse logistics systems",
         "Driving cross-team initiatives in hihgly complex business domains",
         "Pioneering AI-assisted development workflows and tooling to enhance engineering productivity",
+        "Implementing multi-agent workflows to improve support ticket resolution times and customer satisfaction",
       ],
     },
     {
@@ -183,7 +121,7 @@ export const smgEnCv: CvProfile = {
       allowPageBreak: true,
       highlights: [
         "Architected and developed an energy data platform supporting international trading operations",
-        "Built automated infrastructure and CI/CD pipelines using Azure, Terraform, TeamCity, and Octopus Deploy",
+        "Built automated infrastructure and CI/CD pipelines using Azure and Terraform IaC",
       ],
     },
     {

@@ -1,5 +1,5 @@
 import type { CSSProperties, ReactNode } from "react";
-import type { CvProfile, SidebarSectionConfig } from "../data/recruitingDeCv";
+import type { CvProfile, SidebarSectionConfig } from "../types/cv";
 
 function SectionContainer({
   title,

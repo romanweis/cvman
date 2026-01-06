@@ -1,4 +1,4 @@
-import type { CvProfile } from "./smgEnCv";
+import type { CvProfile } from "../types/cv";
 
 export const bcgEnCv: CvProfile = {
   language: "en",

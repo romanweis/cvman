@@ -1,5 +1,5 @@
 import type { CSSProperties } from "react";
-import type { TimelineItem } from "../data/recruitingDeCv";
+import type { TimelineItem } from "../types/cv";
 
 type TimelineListProps = {
   items: TimelineItem[];

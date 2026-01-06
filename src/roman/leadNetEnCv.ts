@@ -1,12 +1,12 @@
-import type { CvProfile } from "./smgEnCv";
+import type { CvProfile } from "../types/cv";
 
-export const oliverBernardEnCv: CvProfile = {
+export const leadNetEnCv: CvProfile = {
   language: "en",
   name: "Roman Weis",
-  title: "Software Architect",
+  title: "Software Architect & Engineer",
   availability: "Currently Software Architect at Digitec Galaxus",
   summary:
-    "Software Architect & Engineer combining deep system architecture, hands-on delivery, and emerging tech experimentation to ship resilient customer experiences across AI, web, and platform domains.",
+    "Experienced .NET Software Engineer & Architect specializing in Domain-Driven Design, legacy applications modernization, and cloud-native architectures.",
   contact: [
     { label: "roman.weis@proton.me", url: "mailto:roman.weis@proton.me" },
     { label: "+41 76 42 44 186", url: "tel:+41764244186" },
@@ -18,8 +18,8 @@ export const oliverBernardEnCv: CvProfile = {
   ],
   location: "Zurich, Switzerland",
   languages: [
-    { language: "English", level: "Fluent" },
     { language: "German", level: "Native" },
+    { language: "English", level: "Fluent" },
     { language: "Russian", level: "Fluent" },
   ],
   sidebarSections: [
@@ -30,9 +30,29 @@ export const oliverBernardEnCv: CvProfile = {
   ],
   skills: [
     {
+      name: "Programming & Technologies",
+      items: [
+        "C#/.NET Ecosystem",
+        "TypeScript, Reat, Angular, Next.js",
+        "MS SQL Server, PostgreSQL",
+        "RavenDB, MongoDB",
+        "Azure Service Bus, Kafka",
+        "GraphQL, REST APIs",
+      ],
+    },
+    {
+      name: "Leadership & Mentoring",
+      items: [
+        "Technical Leadership",
+        "Architecture Workshops",
+        "Developer Mentoring",
+        "Stakeholder Communication",
+      ],
+    },
+    {
       name: "Domain Architecture",
       items: [
-        "Domain-Driven Design (DDD)",
+        "Domain-driven Design (DDD)",
         "Strategic Domain Modeling",
         "Bounded Context Design",
         "Event Storming & Context Mapping",
@@ -57,37 +77,11 @@ export const oliverBernardEnCv: CvProfile = {
       ],
     },
     {
-      name: "Programming & Technologies",
-      items: [
-        "C#/.NET Core",
-        "TypeScript, Reat, Angular, Next.js",
-        "Java & Python",
-        "GraphQL, REST APIs",
-      ],
-    },
-    {
       name: "Architecture Governance",
       items: [
         "Architecture Decision Records",
         "Technology Evaluation & PoCs",
         "Cross-team Alignment",
-      ],
-    },
-    {
-      name: "Leadership & Mentoring",
-      items: [
-        "Technical Leadership",
-        "Architecture Workshops",
-        "Developer Mentoring",
-        "Stakeholder Communication",
-      ],
-    },
-    {
-      name: "Marketplace & E-commerce",
-      items: [
-        "Payment Systems Integration",
-        "Online Booking Systems",
-        "SEO techniques",
       ],
     },
     {
@@ -101,16 +95,16 @@ export const oliverBernardEnCv: CvProfile = {
   ],
   experiences: [
     {
-      role: "Software Architect",
+      role: "Software Architect .NET/Blazor",
       company: "Digitec Galaxus AG",
       location: "Zurich",
       period: "Aug. 2024 - Present",
       highlights: [
         "Leading architectural evolution of Switzerland's largest e-commerce platform serving millions of customers",
-        "Modernize and improve legacy systems to meet the demands of a rapidly growing online retail business",
+        "Modernize and improve legacy systems using .NET and Blazor to meet the demands of a rapidly growing online retail business",
+        "Coaching a team of software developers to drive best practices in software design and architecture",
         "Driving cross-team initiatives in hihgly complex business domains",
         "Pioneering AI-assisted development workflows and tooling to enhance engineering productivity",
-        "Implementing multi-agent workflows to improve support ticket resolution times and customer satisfaction",
       ],
     },
     {
@@ -121,7 +115,7 @@ export const oliverBernardEnCv: CvProfile = {
       allowPageBreak: true,
       highlights: [
         "Architected and developed an energy data platform supporting international trading operations",
-        "Built automated infrastructure and CI/CD pipelines using Azure and Terraform IaC",
+        "Built automated infrastructure and CI/CD pipelines using Azure, Terraform, TeamCity, and Octopus Deploy",
       ],
     },
     {
@@ -136,7 +130,7 @@ export const oliverBernardEnCv: CvProfile = {
       ],
     },
     {
-      role: "Founder, Architect & Developer",
+      role: "Founder, Architect & Developer .NET/Angular/React",
       company: "Stamy Booking GmbH",
       location: "Zurich",
       period: "Mar. 2020 - May 2022",
@@ -148,7 +142,7 @@ export const oliverBernardEnCv: CvProfile = {
       ],
     },
     {
-      role: "Senior Software Engineer",
+      role: "Senior Software Engineer .NET/Angular",
       company: "Maison du Software (Planzer Spin-off)",
       location: "Zurich",
       period: "Nov. 2019 - Feb. 2020",
@@ -159,7 +153,7 @@ export const oliverBernardEnCv: CvProfile = {
       ],
     },
     {
-      role: ".NET Fullstack Software Engineer",
+      role: "Fullstack Software Engineer .NET/Angular (Consulting)",
       company: "Zühlke Group",
       location: "Schlieren",
       period: "May 2017 - Sep. 2019",
@@ -171,7 +165,7 @@ export const oliverBernardEnCv: CvProfile = {
       ],
     },
     {
-      role: "Software Developer",
+      role: "Software Developer Java",
       company: "Freelance",
       location: "Zurich",
       period: "Jan. 2017 - May 2017",

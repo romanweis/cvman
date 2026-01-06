@@ -1,12 +1,12 @@
-import type { CvProfile } from "./smgEnCv";
+import type { CvProfile } from "../types/cv";
 
-export const leadNetEnCv: CvProfile = {
+export const smgEnCv: CvProfile = {
   language: "en",
   name: "Roman Weis",
   title: "Software Architect & Engineer",
   availability: "Currently Software Architect at Digitec Galaxus",
   summary:
-    "Experienced .NET Software Engineer & Architect specializing in Domain-Driven Design, legacy applications modernization, and cloud-native architectures.",
+    "Experienced Software Engineer & Architect specializing in Domain-Driven Design, legacy applications modernization, and cloud-native architectures.",
   contact: [
     { label: "roman.weis@proton.me", url: "mailto:roman.weis@proton.me" },
     { label: "+41 76 42 44 186", url: "tel:+41764244186" },
@@ -30,29 +30,9 @@ export const leadNetEnCv: CvProfile = {
   ],
   skills: [
     {
-      name: "Programming & Technologies",
-      items: [
-        "C#/.NET Ecosystem",
-        "TypeScript, Reat, Angular, Next.js",
-        "MS SQL Server, PostgreSQL",
-        "RavenDB, MongoDB",
-        "Azure Service Bus, Kafka",
-        "GraphQL, REST APIs",
-      ],
-    },
-    {
-      name: "Leadership & Mentoring",
-      items: [
-        "Technical Leadership",
-        "Architecture Workshops",
-        "Developer Mentoring",
-        "Stakeholder Communication",
-      ],
-    },
-    {
       name: "Domain Architecture",
       items: [
-        "Domain-driven Design (DDD)",
+        "Domain-Driven Design (DDD)",
         "Strategic Domain Modeling",
         "Bounded Context Design",
         "Event Storming & Context Mapping",
@@ -77,11 +57,37 @@ export const leadNetEnCv: CvProfile = {
       ],
     },
     {
+      name: "Programming & Technologies",
+      items: [
+        "C#/.NET Core",
+        "TypeScript, Reat, Angular, Next.js",
+        "Java & Python",
+        "GraphQL, REST APIs",
+      ],
+    },
+    {
       name: "Architecture Governance",
       items: [
         "Architecture Decision Records",
         "Technology Evaluation & PoCs",
         "Cross-team Alignment",
+      ],
+    },
+    {
+      name: "Leadership & Mentoring",
+      items: [
+        "Technical Leadership",
+        "Architecture Workshops",
+        "Developer Mentoring",
+        "Stakeholder Communication",
+      ],
+    },
+    {
+      name: "Marketplace & E-commerce",
+      items: [
+        "Payment Systems Integration",
+        "Online Booking Systems",
+        "SEO techniques",
       ],
     },
     {
@@ -95,14 +101,14 @@ export const leadNetEnCv: CvProfile = {
   ],
   experiences: [
     {
-      role: "Software Architect .NET/Blazor",
+      role: "Software Architect",
       company: "Digitec Galaxus AG",
       location: "Zurich",
       period: "Aug. 2024 - Present",
       highlights: [
         "Leading architectural evolution of Switzerland's largest e-commerce platform serving millions of customers",
-        "Modernize and improve legacy systems using .NET and Blazor to meet the demands of a rapidly growing online retail business",
-        "Coaching a team of software developers to drive best practices in software design and architecture",
+        "Modernize and improve legacy systems to meet the demands of a rapidly growing online retail business",
+        "Applying DDD principles to improve resilience and scalability of warehouse logistics systems",
         "Driving cross-team initiatives in hihgly complex business domains",
         "Pioneering AI-assisted development workflows and tooling to enhance engineering productivity",
       ],
@@ -130,7 +136,7 @@ export const leadNetEnCv: CvProfile = {
       ],
     },
     {
-      role: "Founder, Architect & Developer .NET/Angular/React",
+      role: "Founder, Architect & Developer",
       company: "Stamy Booking GmbH",
       location: "Zurich",
       period: "Mar. 2020 - May 2022",
@@ -142,7 +148,7 @@ export const leadNetEnCv: CvProfile = {
       ],
     },
     {
-      role: "Senior Software Engineer .NET/Angular",
+      role: "Senior Software Engineer",
       company: "Maison du Software (Planzer Spin-off)",
       location: "Zurich",
       period: "Nov. 2019 - Feb. 2020",
@@ -153,7 +159,7 @@ export const leadNetEnCv: CvProfile = {
       ],
     },
     {
-      role: "Fullstack Software Engineer .NET/Angular (Consulting)",
+      role: ".NET Fullstack Software Engineer",
       company: "Zühlke Group",
       location: "Schlieren",
       period: "May 2017 - Sep. 2019",
@@ -165,7 +171,7 @@ export const leadNetEnCv: CvProfile = {
       ],
     },
     {
-      role: "Software Developer Java",
+      role: "Software Developer",
       company: "Freelance",
       location: "Zurich",
       period: "Jan. 2017 - May 2017",

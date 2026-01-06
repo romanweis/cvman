@@ -1,4 +1,4 @@
-import type { CvProfile } from "./recruitingDeCv";
+import type { CvProfile } from "../types/cv";
 
 export const owtDeCv: CvProfile = {
   language: "de",

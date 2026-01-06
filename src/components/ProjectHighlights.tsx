@@ -1,4 +1,4 @@
-import type { ProjectHighlight } from "../data/recruitingDeCv";
+import type { ProjectHighlight } from "../types/cv";
 import { BadgeList } from "./BadgeList";
 
 type ProjectHighlightsProps = {
