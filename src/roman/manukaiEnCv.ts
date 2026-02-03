@@ -6,7 +6,7 @@ export const manukaiEnCv: CvProfile = {
   title: "Backend Lead & Software Engineer",
   availability: "Currently Software Architect at Digitec Galaxus",
   summary:
-    "Hands-on Software Engineer with 8+ years building scalable backend systems, integrating complex software modules, and automating CI/CD pipelines. Strong expertise in C#/.NET and Python with deep experience in Windows environments, relational databases, and distributed architectures. Passionate about autonomous problem-solving and continuous improvement.",
+    "Hands-on Software Engineer with 8+ years building scalable backend systems and a foundation of 4+ years as R&D Engineer designing compressor blading for one of the world's largest gas turbines. Strong expertise in C#/.NET and Python with deep experience in relational databases and systems integration. Understands the full journey from engineering design to manufactured product.",
   contact: [
     { label: "roman.weis@proton.me", url: "mailto:roman.weis@proton.me" },
     { label: "+41 76 42 44 186", url: "tel:+41764244186" },
