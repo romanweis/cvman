@@ -62,7 +62,7 @@ export const manukaiEnCv: CvProfile = {
       name: "DevOps & CI/CD",
       items: [
         "Build & Deployment Automation",
-        "GutHub, Azure DevOps & TeamCity",
+        "GitHub, Azure DevOps & TeamCity",
         "Docker & Containerization",
         "Monitoring & Observability",
       ],
