@@ -41,17 +41,19 @@ export const manukaiEnCv: CvProfile = {
     {
       name: "Systems Integration",
       items: [
-        "Windows Systems & Services",
-        "Desktop Applications (Electron)",
-        "Multi-module Software Integration",
-        "Data Flow Optimization",
+        "Payment Systems & Gateways",
+        "ERP & CRM Integration",
+        "Legacy System Modernization",
+        "Event-Driven Integration",
+        "Data Synchronization",
+        "Workflow Automation",
       ],
     },
     {
       name: "Databases",
       items: [
         "SQL Server & PostgreSQL",
-        "SQLite",
+        "NOSQL Databases (MongoDB, RavenDB)",
         "Database Design & Optimization",
         "Data Migration & ETL",
       ],
@@ -60,7 +62,7 @@ export const manukaiEnCv: CvProfile = {
       name: "DevOps & CI/CD",
       items: [
         "Build & Deployment Automation",
-        "Azure DevOps & TeamCity",
+        "GutHub, Azure DevOps & TeamCity",
         "Docker & Containerization",
         "Monitoring & Observability",
       ],
@@ -193,13 +195,13 @@ export const manukaiEnCv: CvProfile = {
       ],
     },
     {
-      role: "Diploma in Mechanical Engineering (Grade 1.7)",
+      role: "MSc Mechanical Engineering (Grade 1.7)",
       company: "Technical University of Kaiserslautern",
       location: "Kaiserslautern",
       period: "Graduated 2012",
       highlights: [
         "Strong quantitative and analytical foundation",
-        "Diploma Thesis at Rolls-Royce: Numerical Simulations & CFD Analysis (Grade 1.0)",
+        "Master Thesis at Rolls-Royce: Numerical Simulations & CFD Analysis (Grade 1.0)",
       ],
     },
     {
