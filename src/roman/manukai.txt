@@ -1,0 +1,43 @@
+Software Engineer – Backend Lead
+About Us
+Manukai stands for Manu_facturing and Kai_zen,a Japanese methodology of continuous improvement, that translates to “change for better.” In ancient Greek, Kai_ros means “the opportune moment.” We are a spin-off from ETH Zürich, aiming to bridge the gap between metal part design and machining. Our technology empowers manufacturers to prioritize their clients’ needs and deliver high-quality products to the market. Our primary focus is making an immediate impact, with client satisfaction our utmost priority.
+
+The Role
+You will be responsible for driving architectural direction, implementation of the backend system, and integration of the adjacent services. You will create highly operable, scalable, and maintainable products. You will troubleshoot and optimize data flows between services and are responsible for the timely release of the products. To achieve the above, you will improve the degree of automation of the CI/CD pipeline.
+
+About You
+In this central role, you must be an excellent communicator and coordinator. You are hands-on and appreciate short decision-making processes and are capable of autonomously bringing your ideas to fruition. You are enthusiastic about your work, and you remove hurdles. You can work effectively in a dynamic environment with changing needs and requirements. As an early hire of Manukai, you will become a key member of our startup. We anticipate your proactive contribution of innovative ideas to shape our product and company. You are eligible to work in Switzerland.
+
+Responsibilities
+‍- Lead architecture decision and the development of the backbone of Manukai’s software
+- Develop the integration of the different software modules into the products
+- Automate and optimize processes and workflows and document architecture and data-streams.
+- Deep dive into problems to find and create efficient solutions.
+- Maintain good software quality and sustainable development. Review code developed by other team members and you provide feedback to ensure best practices (e.g., testability, efficiency, and style)  
+
+Required Skills
+- Degree in a quantitative field, or with significant professional experience building complex software systems in lieu of a degree.
+- Strong experience in software engineering,with solid exposure to backend development and systems integration
+- Advanced knowledge of Python and C# .NET
+- Strong software design and agile development skills
+- Extensive knowledge of Windows operating systems
+- Experience designing or maintaining data interfaces between applications and relational databases (e.g.SQL Server, PostgreSQL).
+- Good understanding of version control,testing, continuous integration, build, deployment and monitoring
+
+Advantageous:
+- Experience in CNC machining technologies such as machines and machining processes, controllers, CAD, CAM, and simulation software.
+
+Tech Stack:
+- C# for integration with Windows-based systems
+- Python for backend and automation
+- SQLite for the data-warehousing
+- Desktop app built with Electron
+- React for the frontend
+- High-performance modules and CAM adapters in C++/C#
+
+You receive:
+- Personal growth potential: You will be a key member and be part of the success story
+- Personal development: Free time to follow your personal interests and goals
+- Time Off and Flexibility: Generous vacation and flexible work hours
+- Generous pension plan and social security contribution
+- Zürich or remote — flexible setup

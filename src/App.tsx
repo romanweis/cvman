@@ -1,10 +1,62 @@
+import {
+  BrowserRouter,
+  Navigate,
+  Route,
+  Routes,
+  useParams,
+} from "react-router-dom";
 import { CVSection } from "./components/CVSection";
 import { HeroCard } from "./components/HeroCard";
 import { Sidebar } from "./components/Sidebar";
 import { TimelineList } from "./components/TimelineList";
-import { recruitingDeCv as profile } from "./roman/recruitingDeCv";
+import type { CvProfile } from "./types/cv";
 
-function App() {
+// Roman's CVs
+import { bcgEnCv } from "./roman/bcgEnCv";
+import { leadNetEnCv } from "./roman/leadNetEnCv";
+import { manukaiEnCv } from "./roman/manukaiEnCv";
+import { oliverBernardEnCv } from "./roman/oliverBernardEnCv";
+import { owtDeCv } from "./roman/owtDeCv";
+import { recruitingDeCv } from "./roman/recruitingDeCv";
+import { smgEnCv } from "./roman/smgEnCv";
+
+// Julia's CVs
+import { defaultEnCv as juliaDefaultEnCv } from "./julia/defaultEnCv";
+import { hitachiCosEnCv as juliaHitachiCosEnCv } from "./julia/hitachiCosEnCv";
+
+const profiles: Record<string, Record<string, CvProfile>> = {
+  roman: {
+    "recruiting-de": recruitingDeCv,
+    "bcg-en": bcgEnCv,
+    "owt-de": owtDeCv,
+    "smg-en": smgEnCv,
+    "leadnet-en": leadNetEnCv,
+    "oliverbernard-en": oliverBernardEnCv,
+    "manukai-en": manukaiEnCv,
+  },
+  julia: {
+    "default-en": juliaDefaultEnCv,
+    "hitachi-cos-en": juliaHitachiCosEnCv,
+  },
+};
+
+function CvPage() {
+  const { person, variant } = useParams<{ person: string; variant: string }>();
+  const profile = profiles[person || ""]?.[variant || ""];
+
+  if (!profile) {
+    return (
+      <div className="flex min-h-screen items-center justify-center">
+        <div className="text-center">
+          <h1 className="text-2xl font-bold text-slate-900">CV not found</h1>
+          <p className="mt-2 text-slate-600">
+            Profile "{person}/{variant}" does not exist.
+          </p>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="cv-page min-h-screen bg-white text-slate-900">
       <div className="cv-grid mx-auto grid max-w-5xl gap-8 px-5 py-8 lg:grid-cols-[minmax(0,1.75fr)_minmax(0,1fr)] lg:gap-10">
@@ -25,6 +77,20 @@ function App() {
         </div>
       </div>
     </div>
+  );
+}
+
+function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/:person/:variant" element={<CvPage />} />
+        <Route
+          path="/"
+          element={<Navigate to="/roman/recruiting-de" replace />}
+        />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

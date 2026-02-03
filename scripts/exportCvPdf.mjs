@@ -64,13 +64,14 @@ async function main() {
       },
     });
 
-  const resolvedUrl = server.resolvedUrls?.local?.[0] ?? "http://127.0.0.1:4173/";
-    console.log(`▶︎ Rendering CV from ${resolvedUrl}`);
+  const baseUrl = server.resolvedUrls?.local?.[0] ?? "http://127.0.0.1:4173/";
+    const cvUrl = `${baseUrl}${person}/${variant}`;
+    console.log(`▶︎ Rendering CV from ${cvUrl}`);
 
     const browser = await chromium.launch();
     try {
       const page = await browser.newPage({ viewport: { width: 1280, height: 1810 } });
-      await page.goto(resolvedUrl, { waitUntil: "networkidle" });
+      await page.goto(cvUrl, { waitUntil: "networkidle" });
       await page.waitForTimeout(1000);
       await page.emulateMedia({ media: "print" });
 

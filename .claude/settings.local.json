@@ -3,7 +3,18 @@
     "allow": [
       "Bash(git mv:*)",
       "Bash(npm run build:*)",
-      "Bash(npm run lint)"
+      "Bash(npm run lint)",
+      "Bash(cat:*)",
+      "Bash(node -e:*)",
+      "Bash(mkdir:*)",
+      "Bash(npm install:*)",
+      "WebSearch",
+      "WebFetch(domain:www.top100startups.swiss)",
+      "WebFetch(domain:www.anybotics.com)",
+      "WebFetch(domain:jobs.lever.co)",
+      "WebFetch(domain:vdz26.cfp.dev)",
+      "WebFetch(domain:dev.events)",
+      "WebFetch(domain:sessionize.com)"
     ]
   }
 }
