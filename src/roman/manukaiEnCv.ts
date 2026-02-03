@@ -205,6 +205,15 @@ export const manukaiEnCv: CvProfile = {
       ],
     },
     {
+      role: "Patent: Compressor Blade with Modified Stagger Angle Distribution",
+      company: "Ansaldo Energia Switzerland AG",
+      location: "EP3502482B1",
+      period: "2019",
+      highlights: [
+        "Co-inventor of patented compressor blade design optimizing aerodynamic performance",
+      ],
+    },
+    {
       role: "Professional Certifications",
       company: "iSAQB · IREB · Vaughn Vernon",
       location: "",
