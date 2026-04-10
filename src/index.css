@@ -84,8 +84,7 @@ body {
 
 	header,
 	section,
-	article,
-	aside {
+	article {
 		break-inside: avoid;
 		page-break-inside: avoid;
 	}

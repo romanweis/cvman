@@ -31,7 +31,18 @@ export type SkillGroup = {
   items: string[];
 };
 
-export type SidebarSectionKey = "personal" | "contact" | "skills" | "languages";
+export type SidebarSectionKey =
+  | "personal"
+  | "contact"
+  | "skills"
+  | "languages"
+  | "projects";
+
+export type SideProject = {
+  name: string;
+  url: string;
+  description: string;
+};
 
 export type SidebarSectionConfig = {
   key: SidebarSectionKey;
@@ -50,6 +61,7 @@ export type CvProfile = {
   skills: SkillGroup[];
   experiences: TimelineItem[];
   education: TimelineItem[];
+  projects?: SideProject[];
   sidebarSections?: SidebarSectionConfig[];
   language: "en" | "de";
   labels: {
@@ -59,5 +71,6 @@ export type CvProfile = {
     contact: string;
     skills: string;
     languages: string;
+    projects?: string;
   };
 };

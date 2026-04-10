@@ -110,6 +110,30 @@ export function Sidebar({ profile }: { profile: CvProfile }) {
                 </div>
               </SectionContainer>
             );
+          case "projects":
+            if (!profile.projects || profile.projects.length === 0) {
+              return null;
+            }
+            return (
+              <SectionContainer
+                key={key}
+                title={profile.labels.projects ?? "Side Projects"}
+                allowPageBreak={allowPageBreak}
+              >
+                <ul className="space-y-2">
+                  {profile.projects.map((project) => (
+                    <li key={project.url} className="space-y-0.5">
+                      <p className="text-[11.5px] font-semibold text-slate-800 break-all">
+                        {project.name}
+                      </p>
+                      <p className="text-[11px] leading-snug text-slate-600">
+                        {project.description}
+                      </p>
+                    </li>
+                  ))}
+                </ul>
+              </SectionContainer>
+            );
           case "languages":
             return (
               <SectionContainer

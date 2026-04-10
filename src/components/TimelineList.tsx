@@ -31,7 +31,7 @@ export function TimelineList({ items }: TimelineListProps) {
           <ul className="mt-2 list-disc space-y-1 pl-6 text-[12px] text-slate-700 marker:text-slate-400">
             {item.highlights.map((highlight) => (
               <li key={highlight} className="leading-relaxed">
-                {highlight}
+                {renderHighlight(highlight)}
               </li>
             ))}
           </ul>
@@ -39,6 +39,20 @@ export function TimelineList({ items }: TimelineListProps) {
       ))}
     </ol>
   );
+}
+
+function renderHighlight(text: string) {
+  const parts = text.split(/(\*\*[^*]+\*\*)/g);
+  return parts.map((part, index) => {
+    if (part.startsWith("**") && part.endsWith("**")) {
+      return (
+        <strong key={index} className="font-semibold text-slate-900">
+          {part.slice(2, -2)}
+        </strong>
+      );
+    }
+    return part;
+  });
 }
 
 function getBreakStyle(allowPageBreak?: boolean): CSSProperties {

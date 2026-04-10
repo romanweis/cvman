@@ -1,0 +1,94 @@
+About the job
+About Us
+
+LGT is the largest Private Banking and Asset Management group in the world to be owned by an entrepreneurial family. As the family office of the Princely House of Liechtenstein, we have years of experience in the management of sizeable sums of assets.
+
+Your challenge
+
+Join our dynamic and agile team responsible for building LGT's cutting-edge Platform for Orchestration of Quantitative Model Execution. The platform manages the full lifecycle of model development and execution: infrastructure for model research and development, discovery of required source data and scalable, auditable, reliable orchestration and execution of the model code.
+
+We are a small but highly effective team, geographically distributed across Hong Kong and Zurich. We are seeking talented senior-level Full Stack Engineers who are passionate about delivering tangible business value through fast release cycles and leveraging modern technologies. The role spans the full software development lifecycle, from ideation and architecture to deployment and optimization, all in a collaborative and supportive environment.
+
+Design, develop, and test resilient, stateless, scalable, and reusable services and APIs for backend and data processing. 
+Build a distributed REST-based microservice system for instrumentation, orchestration and execution of quantitative models. 
+Collaborate closely with quants, product managers, business analysts and end-users to understand business needs, analyze problems, and propose innovative technical solutions that enhance functionality and user interaction. 
+Architect and implement technical solutions that adhere to LGT's standards, deliver optimized client experience, and provide competitive advantage. 
+Develop AI solutions (e.g., automation, chatbots, agent-based systems, MCP prototyping) and integrate them seamlessly with existing business systems to augment platform capabilities. 
+Establish and maintain a robust shared data foundation, designing and optimizing our data storage strategy and writing effective APIs as a platform. 
+Automate and enhance CI/CD pipelines using GitLab CI/CD, Docker, Kubernetes, and ArgoCD to ensure quality change, system responsiveness, and deployment efficiency for global reach. 
+Develop multi-region deployment solutions, proactively addressing geo-specific compliance requirements and localization challenges. 
+Ensure data integrity and security by implementing industry’s best practices and LGT's security standards. 
+Drive and contribute to test automation efforts, ensuring quality at every stage of the development lifecycle. 
+Troubleshoot, debug, and upgrade software, ensuring high performance and reliability. 
+Collaborate effectively with cross-functional teams to build reusable, shared libraries and components. 
+Write clear, concise, and comprehensive technical documentation. 
+Mentor and coach junior team members, providing technical guidance, conducting code reviews, and enforcing governance with respect to application development and testing standards and best practices. 
+
+
+Your profile
+
+Solid experience in full-stack development at senior level. 
+Demonstrated experience in technical leadership, mentoring, and driving best practices. 
+Experience with building decoupled and scalable distributed systems based on REST 
+Experience with SRE practices and observability tools like OpenTelemetry. 
+Familiarity with containerization (Docker) and orchestration (Kubernetes), and experience with CI/CD tools such as GitLab CI/CD and ArgoCD. 
+Understanding of microservices architecture and cloud-native application development. 
+Able to master CI/CD practices and solutions, with a strong understanding of cloud environments (Azure preferred). 
+Experience or strong interest in AI-assisted development, AI frameworks, and system integration with AI models (e.g., Agent, MCP). 
+Knowledge of basic algorithms, object-oriented, and functional design principles and best practices patterns. 
+Strong analytical, problem-solving, and troubleshooting skills with great attention to detail. 
+Experience working in an Agile/Scrum environment and a familiarity with lean development principles. 
+Excellent written and verbal communication skills, with the ability to articulate complex technical concepts. 
+Proactive, self-motivated, and solution-driven individual with a can-do attitude and a passion for continuous process improvement. 
+Ability to work effectively in a small, globally distributed team environment, building trusted relationships across the organization.
+
+
+Desirable Skills (A Plus):
+
+Prior experience with supporting quantitative model development 
+Prior experience in Investment Products, Private Banking, Wealth or Asset Management. 
+Familiarity with geo-specific compliance requirements (e.g., GDPR, APAC regulations) and localization strategies. 
+
+
+Please note that we are unable to consider applications for this position submitted via recruitment agencies.
+
+Benefits at LGT
+
+A great place to work – a great place to have impact: LGT promotes diversity among its employees. We believe that an inclusive and appreciative corporate culture is the driver for a great workplace and provides the opportunity to create a unique and successful team. That's why our employees can also benefit from many additional benefits.
+
+Family & Work:
+
+Various flexible work models 
+Sabbatical 
+At least 25 days annual leave, depending on age
+Special paid leave options 
+Maternity and paternity leave, options for further parental leave
+Additional childcare contribution for paid external care of children up to 12 years old
+
+
+Your Health:
+
+Employee health and wellbeing program 
+Subsidized classes (yoga, fitness) 
+Healthy meal options 
+Fresh fruit supplied daily 
+
+
+Growing Together:
+
+Internal courses 
+External courses offered by the Liechtenstein Academy 
+Support for external training and further education 
+Coaching and mentoring programs 
+International assignments 
+Intrapreneurship program 
+
+
+Perks & Advantages:
+
+Discounts on LGT banking products and services 
+LGT co-investments 
+Discounts on health and property insurance 
+Pension plan with individualized options 
+Various mobility/e-mobility initiatives 
+Recognition of major life events

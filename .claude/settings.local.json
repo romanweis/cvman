@@ -14,7 +14,9 @@
       "WebFetch(domain:jobs.lever.co)",
       "WebFetch(domain:vdz26.cfp.dev)",
       "WebFetch(domain:dev.events)",
-      "WebFetch(domain:sessionize.com)"
+      "WebFetch(domain:sessionize.com)",
+      "Bash(node scripts/exportCvPdf.mjs roman smg-de)",
+      "Bash(node scripts/exportCvPdf.mjs roman smg-en)"
     ]
   }
 }

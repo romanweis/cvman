@@ -14,10 +14,12 @@ import type { CvProfile } from "./types/cv";
 // Roman's CVs
 import { bcgEnCv } from "./roman/bcgEnCv";
 import { leadNetEnCv } from "./roman/leadNetEnCv";
+import { lgtEnCv } from "./roman/lgtEnCv";
 import { manukaiEnCv } from "./roman/manukaiEnCv";
 import { oliverBernardEnCv } from "./roman/oliverBernardEnCv";
 import { owtDeCv } from "./roman/owtDeCv";
 import { recruitingDeCv } from "./roman/recruitingDeCv";
+import { smgDeCv } from "./roman/smgDeCv";
 import { smgEnCv } from "./roman/smgEnCv";
 
 // Julia's CVs
@@ -29,8 +31,10 @@ const profiles: Record<string, Record<string, CvProfile>> = {
     "recruiting-de": recruitingDeCv,
     "bcg-en": bcgEnCv,
     "owt-de": owtDeCv,
+    "smg-de": smgDeCv,
     "smg-en": smgEnCv,
     "leadnet-en": leadNetEnCv,
+    "lgt-en": lgtEnCv,
     "oliverbernard-en": oliverBernardEnCv,
     "manukai-en": manukaiEnCv,
   },

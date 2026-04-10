@@ -60,7 +60,7 @@ export const smgEnCv: CvProfile = {
       name: "Programming & Technologies",
       items: [
         "C#/.NET Core",
-        "TypeScript, Reat, Angular, Next.js",
+        "TypeScript, React, Angular, Next.js",
         "Java & Python",
         "GraphQL, REST APIs",
       ],
@@ -109,7 +109,7 @@ export const smgEnCv: CvProfile = {
         "Leading architectural evolution of Switzerland's largest e-commerce platform serving millions of customers",
         "Modernize and improve legacy systems to meet the demands of a rapidly growing online retail business",
         "Applying DDD principles to improve resilience and scalability of warehouse logistics systems",
-        "Driving cross-team initiatives in hihgly complex business domains",
+        "Driving cross-team initiatives in highly complex business domains",
         "Pioneering AI-assisted development workflows and tooling to enhance engineering productivity",
       ],
     },
