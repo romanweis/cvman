@@ -109,7 +109,7 @@ export const lgtEnCv: CvProfile = {
       ],
     },
     {
-      role: "Fullstack Engineer .NET/Blazor (Contract)",
+      role: "Full Stack Engineer .NET/Blazor (Contract)",
       company: "Axpo Group",
       location: "Baden",
       period: "May 2023 - Jun. 2024",
@@ -120,7 +120,7 @@ export const lgtEnCv: CvProfile = {
       ],
     },
     {
-      role: "Fullstack Engineer .NET/React (Contract)",
+      role: "Full Stack Engineer .NET/React (Contract)",
       company: "Swiss Life Group",
       location: "Zurich",
       period: "Jun. 2022 - Apr. 2023",
@@ -154,13 +154,13 @@ export const lgtEnCv: CvProfile = {
       ],
     },
     {
-      role: ".NET Fullstack Software Engineer",
+      role: ".NET Full Stack Software Engineer",
       company: "Zühlke Group",
       location: "Schlieren",
       period: "May 2017 - Sep. 2019",
       allowPageBreak: true,
       highlights: [
-        "Contributed as fullstack engineer across multiple Scrum teams for a private banking and wealth management platform serving high-net-worth clients",
+        "Contributed as Full Stack engineer across multiple Scrum teams for a private banking and wealth management platform serving high-net-worth clients",
         "Modernized complex legacy tax reporting system using .NET Core, SQL Server, Docker, RavenDB, and Angular",
         "Applied Domain-Driven Design principles in Master's thesis focusing on software architecture modernization",
       ],
