@@ -2,6 +2,10 @@ import type { CvProfile } from "../types/cv";
 
 export const zkbDeCv: CvProfile = {
   language: "de",
+  theme: {
+    primary: "#0066B3",
+    primaryDark: "#003D7A",
+  },
   name: "Roman Weis",
   title: "Software Architect & Engineer",
   availability: "Aktuell Software Architect bei Digitec Galaxus",

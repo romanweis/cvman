@@ -1,3 +1,4 @@
+import type { CSSProperties } from "react";
 import {
   BrowserRouter,
   Navigate,
@@ -10,6 +11,16 @@ import { HeroCard } from "./components/HeroCard";
 import { Sidebar } from "./components/Sidebar";
 import { TimelineList } from "./components/TimelineList";
 import type { CvProfile } from "./types/cv";
+
+const defaultTheme = { primary: "#1e293b", primaryDark: "#0f172a" };
+
+function getThemeStyle(profile: CvProfile): CSSProperties {
+  const theme = profile.theme ?? defaultTheme;
+  return {
+    ["--cv-accent" as string]: theme.primary,
+    ["--cv-accent-strong" as string]: theme.primaryDark,
+  };
+}
 
 // Roman's CVs
 import { bcgEnCv } from "./roman/bcgEnCv";
@@ -66,7 +77,10 @@ function CvPage() {
   }
 
   return (
-    <div className="cv-page min-h-screen bg-white text-slate-900">
+    <div
+      className="cv-page min-h-screen bg-white text-slate-900"
+      style={getThemeStyle(profile)}
+    >
       <div className="cv-grid mx-auto grid max-w-5xl gap-8 px-5 py-8 lg:grid-cols-[minmax(0,1.75fr)_minmax(0,1fr)] lg:gap-10">
         <div className="lg:col-span-2">
           <HeroCard profile={profile} />

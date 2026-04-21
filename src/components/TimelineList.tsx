@@ -16,10 +16,16 @@ export function TimelineList({ items }: TimelineListProps) {
         >
           <div className="flex flex-wrap items-baseline justify-between gap-2 text-[12px]">
             <div>
-              <h3 className="text-[13px] font-semibold text-slate-900">
+              <h3
+                className="text-[13px] font-semibold"
+                style={{ color: "var(--cv-accent-strong)" }}
+              >
                 {item.role}
               </h3>
-              <p className="text-[11px] font-medium text-slate-600">
+              <p
+                className="text-[11px] font-medium"
+                style={{ color: "var(--cv-accent)" }}
+              >
                 {item.company}
                 {item.location ? ` · ${item.location}` : ""}
               </p>

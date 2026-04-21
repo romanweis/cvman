@@ -17,10 +17,16 @@ function SectionContainer({
 
   return (
     <section className="space-y-1" style={breakStyle}>
-      <h3 className="text-[10px] font-semibold uppercase tracking-[0.3em] text-slate-600">
+      <h3
+        className="text-[10px] font-semibold uppercase tracking-[0.3em] border-b pb-1"
+        style={{
+          color: "var(--cv-accent-strong)",
+          borderColor: "var(--cv-accent)",
+        }}
+      >
         {title}
       </h3>
-      <div className="space-y-[4px] text-[11.5px] text-slate-700">
+      <div className="space-y-[4px] text-[11.5px] text-slate-700 pt-1">
         {children}
       </div>
     </section>
@@ -97,7 +103,10 @@ export function Sidebar({ profile }: { profile: CvProfile }) {
                       className="space-y-1"
                       style={skillGroupBreakStyle}
                     >
-                      <p className="text-[10px] font-semibold tracking-[0.2em] text-slate-800">
+                      <p
+                        className="text-[10px] font-semibold tracking-[0.2em]"
+                        style={{ color: "var(--cv-accent)" }}
+                      >
                         {group.name}
                       </p>
                       <ul className="list-disc list-inside space-y-[2px] text-[11px] leading-snug text-slate-600">

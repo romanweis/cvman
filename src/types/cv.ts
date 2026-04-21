@@ -49,6 +49,11 @@ export type SidebarSectionConfig = {
   allowPageBreak?: boolean;
 };
 
+export type CvTheme = {
+  primary: string;
+  primaryDark: string;
+};
+
 export type CvProfile = {
   name: string;
   title: string;
@@ -63,6 +68,7 @@ export type CvProfile = {
   education: TimelineItem[];
   projects?: SideProject[];
   sidebarSections?: SidebarSectionConfig[];
+  theme?: CvTheme;
   language: "en" | "de";
   labels: {
     experience: string;

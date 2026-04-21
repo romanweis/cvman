@@ -90,7 +90,6 @@ body {
 	a,
 	span,
 	strong {
-		color: inherit !important;
 		text-decoration: none !important;
 	}
 }

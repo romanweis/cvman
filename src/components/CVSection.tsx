@@ -10,9 +10,13 @@ export function CVSection({ title, children, accent = false }: CVSectionProps) {
     <section className="space-y-3">
       <header className="flex items-center gap-2.5">
         <div
-          className={`h-px w-10 ${accent ? "bg-slate-800" : "bg-slate-300"}`}
+          className={`${accent ? "h-[2px] w-10" : "h-px w-10 bg-slate-300"}`}
+          style={accent ? { backgroundColor: "var(--cv-accent)" } : undefined}
         />
-        <h2 className="text-xs font-semibold uppercase tracking-[0.3em] text-slate-600">
+        <h2
+          className="text-xs font-semibold uppercase tracking-[0.3em]"
+          style={{ color: "var(--cv-accent-strong)" }}
+        >
           {title}
         </h2>
       </header>
