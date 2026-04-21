@@ -13,6 +13,7 @@ import type { CvProfile } from "./types/cv";
 
 // Roman's CVs
 import { bcgEnCv } from "./roman/bcgEnCv";
+import { csharpDevDeCv } from "./roman/csharpDevDeCv";
 import { leadNetEnCv } from "./roman/leadNetEnCv";
 import { lgtEnCv } from "./roman/lgtEnCv";
 import { manukaiEnCv } from "./roman/manukaiEnCv";
@@ -21,6 +22,7 @@ import { owtDeCv } from "./roman/owtDeCv";
 import { recruitingDeCv } from "./roman/recruitingDeCv";
 import { smgDeCv } from "./roman/smgDeCv";
 import { smgEnCv } from "./roman/smgEnCv";
+import { zkbDeCv } from "./roman/zkbDeCv";
 
 // Julia's CVs
 import { defaultEnCv as juliaDefaultEnCv } from "./julia/defaultEnCv";
@@ -30,6 +32,7 @@ const profiles: Record<string, Record<string, CvProfile>> = {
   roman: {
     "recruiting-de": recruitingDeCv,
     "bcg-en": bcgEnCv,
+    "csharp-dev": csharpDevDeCv,
     "owt-de": owtDeCv,
     "smg-de": smgDeCv,
     "smg-en": smgEnCv,
@@ -37,6 +40,7 @@ const profiles: Record<string, Record<string, CvProfile>> = {
     "lgt-en": lgtEnCv,
     "oliverbernard-en": oliverBernardEnCv,
     "manukai-en": manukaiEnCv,
+    "zkb-de": zkbDeCv,
   },
   julia: {
     "default-en": juliaDefaultEnCv,

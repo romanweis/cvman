@@ -82,9 +82,7 @@ body {
 		page-break-after: avoid;
 	}
 
-	header,
-	section,
-	article {
+	.cv-hero header {
 		break-inside: avoid;
 		page-break-inside: avoid;
 	}

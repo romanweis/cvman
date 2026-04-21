@@ -1,0 +1,31 @@
+Einsatzort: Zürich
+
+Start: per sofort
+
+Dauer: 12-18 Monate
+
+Pensum: 80–100%
+
+Homeoffice: 2 Tage pro Woche möglich
+
+Sprache: Deutsch (fließend), Englisch ist von Vorteil
+
+
+
+Ihre Aufgaben
+
+Detailumsetzung eines Modernisierungskonzepts für die Messdatenerfassung
+Pflege und Weiterentwicklung bestehender Softwareprodukte
+Entwicklung technischer Applikationen (z. B. Materialdatenbank, Berechnungstools)
+Betreuung der Hardware- und Netzwerkumgebung in Zusammenarbeit mit dem externen IT‑Dienstleister
+Abteilungsinterne Ansprechperson für IT‑ und Softwarethemen
+Koordination von Software‑Engineering‑Beiträgen
+Schnittstelle zu internen Kunden im Bereich Prüfstandsmessdaten
+
+
+Ihr Profil
+
+Gute Kenntnisse in C#, alternativ Erfahrung in einer vergleichbaren objektorientierten Programmiersprache (z. B. C++, Java, Python OOP)
+Fundierte Erfahrung in objektorientierter Softwareentwicklung und Clean‑Code‑Prinzipien
+3 + Jahre Erfahrung in der eigenständigen Umsetzung von Softwareprojekten im Industrie‑ oder Anlagenumfeld
+Nice to have: Verständnis physikalischer Messgrößen (z. B. Druck, Schwingungen, Volumenstrom, Thermodynamik)

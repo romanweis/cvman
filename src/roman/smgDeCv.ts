@@ -58,9 +58,8 @@ export const smgDeCv: CvProfile = {
     {
       name: "Programmierung & Technologien",
       items: [
-        "C#/.NET Core",
+        "C#/.NET Core, Java, Python",
         "TypeScript, React, Angular, Next.js",
-        "Java & Python",
         "GraphQL, REST APIs",
       ],
     },
@@ -175,7 +174,7 @@ export const smgDeCv: CvProfile = {
       location: "Zürich",
       period: "Jan. 2017 - Mai 2017",
       highlights: [
-        "Entwicklung einer Java-Anwendung für Backtesting von Forex-Handelsstrategien mit Echtzeit-Marktdatenanalyse",
+        "Entwicklung einer Anwendung für Backtesting von Forex-Handelsstrategien mit Echtzeit-Marktdatenanalyse in Java",
       ],
     },
     {
