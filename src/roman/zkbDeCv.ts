@@ -6,7 +6,7 @@ export const zkbDeCv: CvProfile = {
   title: "Software Architect & Engineer",
   availability: "Aktuell Software Architect bei Digitec Galaxus",
   summary:
-    "Erfahrener Software Engineer & Architekt mit Spezialisierung auf Domain-Driven Design, Modernisierung von Legacy-Anwendungen und Cloud-native Architekturen.",
+    "Erfahrener Software Architect mit Fokus auf Webplattformen, Microservices und Domain-Driven Design. Breite Erfahrung in der Konzeption und Weiterentwicklung skalierbarer, resilienter Systeme im Finanz-, Energie- und E-Commerce-Umfeld.",
   contact: [
     { label: "roman.weis@proton.me", url: "mailto:roman.weis@proton.me" },
     { label: "+41 76 42 44 186", url: "tel:+41764244186" },
@@ -42,8 +42,9 @@ export const zkbDeCv: CvProfile = {
       items: [
         "Microservices & Verteilte Systeme",
         "Event-Driven Architecture",
+        "Skalierbarkeit, Performance & Monitoring",
+        "Resilienz & API-Gateway-Patterns",
         "Modular Monolith",
-        "Skalierbarkeit & Performance",
       ],
     },
     {
@@ -58,10 +59,10 @@ export const zkbDeCv: CvProfile = {
     {
       name: "Programmierung & Technologien",
       items: [
-        "C#/.NET Core",
+        "C#/.NET Core, Java, Python",
         "TypeScript, React, Angular, Next.js",
-        "Java & Python",
         "GraphQL, REST APIs",
+        "PostgreSQL, SQL Server, MongoDB, RavenDB",
       ],
     },
     {
@@ -106,9 +107,9 @@ export const zkbDeCv: CvProfile = {
       period: "Aug. 2024 - heute",
       highlights: [
         "Architektonische Weiterentwicklung der grössten E-Commerce-Plattform der Schweiz mit Millionen von Kunden",
-        "Modernisierung und Verbesserung von Legacy-Systemen zur Unterstützung eines schnell wachsenden Online-Handels",
+        "Modernisierung von Legacy-Systemen zu resilienten, skalierbaren Services für den wachsenden Online-Handel",
         "Anwendung von DDD-Prinzipien zur Verbesserung der Resilienz und Skalierbarkeit von Lagerlogistiksystemen",
-        "Vorantreiben teamübergreifender Initiativen in hochkomplexen Geschäftsdomänen",
+        "Technische Leitung von teamübergreifenden Projekten in komplexen Geschäftsbereichen",
         "Einführung KI-gestützter Entwicklungsworkflows und -tools zur Steigerung der Engineering-Produktivität",
       ],
     },
@@ -119,7 +120,7 @@ export const zkbDeCv: CvProfile = {
       period: "Mai 2023 - Jun. 2024",
       allowPageBreak: true,
       highlights: [
-        "Konzeption und Entwicklung einer Energiedatenplattform zur Unterstützung des internationalen Energiehandels",
+        "Architektur einer skalierbaren Datenplattform mit REST-APIs für den internationalen Energiehandel",
         "Aufbau automatisierter Infrastruktur und CI/CD-Pipelines mit Azure, Terraform, TeamCity und Octopus Deploy",
       ],
     },
@@ -141,7 +142,7 @@ export const zkbDeCv: CvProfile = {
       period: "März 2020 - Mai 2022",
       allowPageBreak: true,
       highlights: [
-        "Gründung und Architektur einer SaaS-Plattform für die Fitness- und Wellnessbranche von Konzept bis Markteinführung",
+        "Architektur und Betrieb einer öffentlich zugänglichen SaaS-Plattform mit Endkunden-Self-Service und Zahlungsintegration",
         "Aufbau einer Multi-Cloud-Infrastruktur über Azure, GCP, AWS und Hetzner",
         "Entwicklung mehrerer Web-Frontends mit Angular, React und Next.js",
       ],
