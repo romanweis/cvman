@@ -15,6 +15,7 @@ export type TimelineItem = {
   period: string;
   highlights: string[];
   allowPageBreak?: boolean;
+  pageBreakBefore?: boolean;
 };
 
 export type ProjectHighlight = {
@@ -40,7 +41,7 @@ export type SidebarSectionKey =
 
 export type SideProject = {
   name: string;
-  url: string;
+  url?: string;
   description: string;
 };
 

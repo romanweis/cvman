@@ -12,7 +12,7 @@ export function TimelineList({ items }: TimelineListProps) {
         <li
           key={`${item.role}-${item.company}-${item.period}`}
           className="border-b border-slate-200 pb-2 last:border-b-0"
-          style={getBreakStyle(item.allowPageBreak)}
+          style={getBreakStyle(item.allowPageBreak, item.pageBreakBefore)}
         >
           <div className="flex flex-wrap items-baseline justify-between gap-2 text-[12px]">
             <div>
@@ -61,10 +61,18 @@ function renderHighlight(text: string) {
   });
 }
 
-function getBreakStyle(allowPageBreak?: boolean): CSSProperties {
-  if (allowPageBreak) {
-    return { breakInside: "auto", pageBreakInside: "auto" };
+function getBreakStyle(
+  allowPageBreak?: boolean,
+  pageBreakBefore?: boolean,
+): CSSProperties {
+  const style: CSSProperties = allowPageBreak
+    ? { breakInside: "auto", pageBreakInside: "auto" }
+    : { breakInside: "avoid", pageBreakInside: "avoid" };
+
+  if (pageBreakBefore) {
+    style.breakBefore = "page";
+    style.pageBreakBefore = "always";
   }
 
-  return { breakInside: "avoid", pageBreakInside: "avoid" };
+  return style;
 }

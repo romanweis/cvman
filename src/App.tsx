@@ -33,6 +33,7 @@ import { owtDeCv } from "./roman/owtDeCv";
 import { recruitingDeCv } from "./roman/recruitingDeCv";
 import { smgDeCv } from "./roman/smgDeCv";
 import { smgEnCv } from "./roman/smgEnCv";
+import { vontobelEnCv } from "./roman/vontobelEn";
 import { zkbDeCv } from "./roman/zkbDeCv";
 
 // Julia's CVs
@@ -51,6 +52,7 @@ const profiles: Record<string, Record<string, CvProfile>> = {
     "lgt-en": lgtEnCv,
     "oliverbernard-en": oliverBernardEnCv,
     "manukai-en": manukaiEnCv,
+    "vontobel-en": vontobelEnCv,
     "zkb-de": zkbDeCv,
   },
   julia: {

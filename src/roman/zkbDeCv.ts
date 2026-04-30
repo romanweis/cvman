@@ -3,8 +3,8 @@ import type { CvProfile } from "../types/cv";
 export const zkbDeCv: CvProfile = {
   language: "de",
   theme: {
-    primary: "#0066B3",
-    primaryDark: "#003D7A",
+    primary: "#003cb4",
+    primaryDark: "#080f5e",
   },
   name: "Roman Weis",
   title: "Software Architect & Engineer",
@@ -24,13 +24,25 @@ export const zkbDeCv: CvProfile = {
   languages: [
     { language: "Deutsch", level: "Muttersprache" },
     { language: "Englisch", level: "Fliessend" },
-    { language: "Russisch", level: "Fliessend" },
   ],
   sidebarSections: [
     { key: "personal" },
     { key: "contact" },
     { key: "skills", allowPageBreak: true },
+    { key: "projects", allowPageBreak: true },
     { key: "languages", allowPageBreak: true },
+  ],
+  projects: [
+    {
+      name: "dotnetagents.net",
+      url: "https://dotnetagents.net/",
+      description:
+        "Technische Plattform rund um Agentic AI Patterns mit dem Microsoft Agent Framework.",
+    },
+    {
+      name: "Schach",
+      description: "Aktiver Spieler in Online- und Live-Turnieren.",
+    },
   ],
   skills: [
     {
@@ -244,5 +256,6 @@ export const zkbDeCv: CvProfile = {
     contact: "Kontakt",
     skills: "Fähigkeiten",
     languages: "Sprachen",
+    projects: "Nebenprojekte & Hobbys",
   },
 };

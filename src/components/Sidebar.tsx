@@ -131,7 +131,7 @@ export function Sidebar({ profile }: { profile: CvProfile }) {
               >
                 <ul className="space-y-2">
                   {profile.projects.map((project) => (
-                    <li key={project.url} className="space-y-0.5">
+                    <li key={project.url ?? project.name} className="space-y-0.5">
                       <p className="text-[11.5px] font-semibold text-slate-800 break-all">
                         {project.name}
                       </p>
