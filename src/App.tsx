@@ -25,6 +25,7 @@ function getThemeStyle(profile: CvProfile): CSSProperties {
 // Roman's CVs
 import { bcgEnCv } from "./roman/bcgEnCv";
 import { csharpDevDeCv } from "./roman/csharpDevDeCv";
+import { jbSeniorFullStackEnCv } from "./roman/jbSeniorFullStackEnCv";
 import { leadNetEnCv } from "./roman/leadNetEnCv";
 import { lgtEnCv } from "./roman/lgtEnCv";
 import { manukaiEnCv } from "./roman/manukaiEnCv";
@@ -35,6 +36,7 @@ import { smgDeCv } from "./roman/smgDeCv";
 import { smgEnCv } from "./roman/smgEnCv";
 import { vontobelEnCv } from "./roman/vontobelEn";
 import { zkbDeCv } from "./roman/zkbDeCv";
+import { zkbDevDeCv } from "./roman/zkbDevDeCv";
 
 // Julia's CVs
 import { defaultEnCv as juliaDefaultEnCv } from "./julia/defaultEnCv";
@@ -54,6 +56,8 @@ const profiles: Record<string, Record<string, CvProfile>> = {
     "manukai-en": manukaiEnCv,
     "vontobel-en": vontobelEnCv,
     "zkb-de": zkbDeCv,
+    "zkb-dev-de": zkbDevDeCv,
+    "jb-senior-fullstack-en": jbSeniorFullStackEnCv,
   },
   julia: {
     "default-en": juliaDefaultEnCv,

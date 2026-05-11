@@ -1,0 +1,47 @@
+Senior Full Stack .NET-Core/Angular Engineer 100% (f/m/d) - (Contract through our external payroll partner with immediate start for 12 months with possible extension)
+
+At Julius Baer, we celebrate and value the individual qualities you bring, enabling you to be impactful, to be entrepreneurial, to be empowered, and to create value beyond wealth. Let’s shape the future of wealth management together. 
+
+YOUR CHALLENGE
+Take end-to-end ownership and responsibility to bring our wealth management applications to the next level and work closely with the Application Responsible (AR) and the Product Owner (PO)
+
+Work together in a cross-functional team using agile methodologies as part of a DevOps-centric model
+
+Design, implement, deploy, release, and monitor your team's applications; participate in merge request reviews
+
+Understand business needs by collaborating with colleagues from across different divisions of Julius Baer
+
+Participate in planning and feature refinement sessions with your team
+
+Collaborate with Solution Architects to design software solutions aligned with Julius Baer's overall architecture vision
+
+Actively participate in our Software Engineering communities, sharing your knowledge and helping others
+
+Deliver high-quality code, aligned with Julius Baer's guidelines and standards
+
+YOUR PROFILE
+Master's or Bachelor's degree in Computer Science or a related field, or have proven relevant working experience
+
+Banking and Finance experience, especially in Investment & Wealth Management of added value
+
+Proven delivery experience in Software Engineering using industry standards, such as test-oriented development using TDD and BDD
+
+Sound understanding of agile methodologies and DevOps, agile certificates are a plus
+
+Understand DevOps concepts, including Continuous Integration (CI) and Continuous Deployment (CD), and the importance and value of automated testing
+
+Sound understanding of agile methodologies and DevOps, agile certificates are a plus
+
+Can-do attitude, are pragmatic, and open-minded with an entrepreneurial mindset
+
+Willing to learn new ways of working and support Julius Baer in its transformation
+
+Strong organisational skills, well structured and reliable with a self-driven and hands-on mentality
+
+Excellent command of English (C1/C2)
+
+Our Stack: C#, .NET Core/.NET 8+, Angular (v20+), Service oriented architecture, REST Web Services, SQL (Microsoft SQL Server), React, JavaScript, Typescript, Kubernetes (PKS), Streaming using Kafka, Avro, Micro-frontends via Module Federation
+
+What we don't expect from you:
+
+To be an expert in both frontend and backend domains. We understand that everyone has their specialities and preferences, so we don't expect you to be an expert in both Angular and .NET Core, for example. However, we do expect you to be open to working in both domains when required, while still maintaining a focus on either frontend or backend.
