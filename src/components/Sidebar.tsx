@@ -18,7 +18,7 @@ function SectionContainer({
   return (
     <section className="space-y-1" style={breakStyle}>
       <h3
-        className="text-[10px] font-semibold uppercase tracking-[0.3em] border-b pb-1"
+        className="text-[10px] font-semibold uppercase border-b pb-1"
         style={{
           color: "var(--cv-accent-strong)",
           borderColor: "var(--cv-accent)",
@@ -62,7 +62,7 @@ export function Sidebar({ profile }: { profile: CvProfile }) {
                 <ul className="space-y-1">
                   {profile.personal.map((item) => (
                     <li key={item.label} className="space-y-0.5">
-                      <p className="text-[10px] font-semibold uppercase tracking-[0.2em] text-slate-500">
+                      <p className="text-[10px] font-semibold uppercase text-slate-500">
                         {item.label}
                       </p>
                       <p className="text-[11.5px] font-medium text-slate-700">
@@ -104,7 +104,7 @@ export function Sidebar({ profile }: { profile: CvProfile }) {
                       style={skillGroupBreakStyle}
                     >
                       <p
-                        className="text-[10px] font-semibold tracking-[0.2em]"
+                        className="text-[10px] font-semibold uppercase"
                         style={{ color: "var(--cv-accent)" }}
                       >
                         {group.name}

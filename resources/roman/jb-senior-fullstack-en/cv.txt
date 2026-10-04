@@ -1,0 +1,128 @@
+Roman Weis
+Senior Full Stack Engineer .NET / Angular / React
+Zurich, Switzerland | roman.weis@proton.me | +41 76 42 44 186
+
+Currently Software Architect at Digitec Galaxus
+
+SUMMARY
+Senior Full Stack Engineer with proven delivery experience in C#/.NET Core, Angular, React, and SQL Server, including prior work in regulated banking and insurance environments. Comfortable taking end-to-end ownership of design, implementation, deployment, and monitoring in DevOps-centric, agile teams.
+
+PROFESSIONAL EXPERIENCE
+
+Software Architect | Digitec Galaxus AG | Zurich | Aug. 2024 - Present
+  - End-to-end ownership of full stack development on Switzerland's largest e-commerce platform, using C#/.NET Core, Blazor and SQL Server
+  - Modernize business-critical legacy systems into resilient, scalable services applying Domain-Driven Design and microservices patterns
+  - Drive cross-team backend and frontend initiatives in highly complex business domains, collaborating with Solution Architects and Product Owners
+  - Active in engineering communities and AI Coding Guild, sharing knowledge and shaping company-wide engineering practices
+
+Senior Full Stack Engineer .NET/Blazor (Contract) | Axpo Group | Baden | May 2023 - Jun. 2024
+  - Designed, implemented, deployed, and monitored microservices in C#/.NET, SQL Server, and Blazor for international energy trading in a regulated environment
+  - Delivered business-critical data platform for trade processing and reporting, applying TDD and BDD throughout
+  - Built automated CI/CD pipelines using Azure, Terraform, TeamCity, and Octopus Deploy
+  - Worked end-to-end in a cross-functional, DevOps-centric agile team
+
+Senior Full Stack Engineer .NET/React (Contract) | Swiss Life Group | Zurich | Jun. 2022 - Apr. 2023
+  - Full stack development in C#/.NET, GraphQL, React Relay, MongoDB, and Kubernetes for the production insurance portal of a regulated financial services provider
+  - Migrated millions of customer records from SQL Server to SAP C4C, ensuring data quality and operational continuity
+  - Implemented insurance product flows and self-service features with high stability and accuracy requirements
+  - Participated in planning, refinement, and merge request reviews in agile, regulated finance teams
+
+Founder, Architect & Full Stack Engineer | Stamy Booking GmbH | Zurich | Mar. 2020 - May 2022
+  - Architected and built a SaaS platform end-to-end using C#/.NET microservices, Angular, React, and Next.js frontends
+  - Implemented booking, billing, and self-service flows with payment integrations and REST APIs
+  - Operated multi-cloud infrastructure across Azure, GCP, AWS, and Hetzner with CI/CD and observability
+
+Senior Software Engineer | Maison du Software (Planzer Spin-off) | Zurich | Nov. 2019 - Feb. 2020
+  - Senior full stack development of logistics applications in C#/.NET, Angular, and SQL Server
+  - Introduced Scrum and Continuous Delivery practices using Azure DevOps
+  - Mentored junior developers in architecture, testing, and clean code principles
+
+Full Stack Engineer .NET | Zühlke Group | Schlieren | May 2017 - Sep. 2019
+  - Full stack development in C#/.NET Core, SQL Server, T-SQL, and Angular for Julius Baer serving high-net-worth clients in a regulated finance environment
+  - Modernized a complex legacy tax reporting system using .NET Core, SQL Server, Docker, RavenDB, and Angular
+
+Software Developer (Forex Backtesting) | Freelance | Zurich | Jan. 2017 - May 2017
+  - Developed a Java application for backtesting forex trading strategies with real-time market data analysis and persistent storage
+
+Aerodynamics Engineer (GT Compressor) | Ansaldo Energia (formerly Alstom Power) | Baden | Oct. 2012 - Dec. 2016
+  - Modernized the legacy Rolls-Royce design system with Python, PyQt, and PostgreSQL for data analysis, numerical evaluation, and internal tooling
+  - Aerodynamic design of gas turbine compressors for power generation
+
+EDUCATION & CERTIFICATIONS
+
+Master of Computer Science (Grade 1.4) | University of Applied Sciences Trier - Distance Learning | Trier / Remote | Graduated 2019
+  - Master's Thesis: Domain-Driven Design, Microservices Architecture, CQRS, Event Sourcing (Grade 1.0)
+  - Specialized in distributed systems, software architecture patterns, and enterprise integration
+
+Diploma in Mechanical Engineering (Grade 1.7) | Technical University of Kaiserslautern | Kaiserslautern | Graduated 2012
+  - Specializations: Energy Technology, Mechanical Engineering Fundamentals, Fluid Mechanics
+
+High School Diploma (Grade 2.2) | Christian von Mannlich Gymnasium | Homburg (Saar) | Graduated 2007
+  - General university entrance qualification
+
+Certifications & Training | iSAQB · IREB · Vaughn Vernon | 2018 - 2022
+  - Certified Professional for Software Architecture, Foundation Level (iSAQB), Oct. 2022
+  - Certified Professional for Requirements Engineering, Foundation Level (IREB), Apr. 2019
+  - Domain-Driven Design Workshop with Vaughn Vernon, Sep. 2018
+
+PERSONAL INFORMATION
+  Date of Birth: November 19, 1985
+  Nationality: Swiss
+  Address: Spyristeig 35, 8044 Zurich
+
+CONTACT
+  roman.weis@proton.me
+  +41 76 42 44 186
+
+SKILLS
+
+Backend Development
+  - C#/.NET Core
+  - Service-Oriented Architecture & Microservices
+  - REST Web Services & GraphQL
+  - Event-Driven Integration (Kafka, Avro)
+
+Frontend Development
+  - Angular & TypeScript
+  - React & JavaScript
+  - Micro-frontends via Module Federation
+  - Responsive, production-grade UIs
+
+Banking & Wealth Management
+  - Private banking platforms for HNW clients
+  - Tax reporting & regulated finance systems
+  - Insurance portals (Swiss Life)
+  - Forex backtesting & market data analysis
+
+Databases & Data
+  - Microsoft SQL Server & T-SQL
+  - PostgreSQL, MongoDB, RavenDB
+  - Data migrations, reporting & ETL
+  - Processing pipelines for trading & finance
+
+DevOps & Quality
+  - Azure DevOps, GitHub, TeamCity, Octopus Deploy
+  - CI/CD pipelines & Infrastructure as Code
+  - Kubernetes & Docker
+  - TDD, BDD & automated testing
+
+Architecture & Methodology
+  - Domain-Driven Design (DDD)
+  - Agile/Scrum & Continuous Delivery
+  - Scalability, resilience, performance
+  - Solution design with architects & POs
+
+Leadership & Collaboration
+  - Cross-functional, DevOps-centric teams
+  - Mentoring & engineering communities
+  - Stakeholder communication
+
+SIDE PROJECTS & HOBBIES
+  dotnetagents.net (https://dotnetagents.net/)
+    Technical platform on Agentic AI patterns built with the Microsoft Agent Framework.
+  Chess
+    Active player in online and live tournaments.
+
+LANGUAGES
+  German: Native
+  English: Fluent (C1/C2)

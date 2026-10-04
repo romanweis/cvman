@@ -5,9 +5,13 @@ LGT is the largest Private Banking and Asset Management group in the world to be
 
 Your challenge
 
-Join our dynamic and agile team responsible for building LGT's cutting-edge Platform for Orchestration of Quantitative Model Execution. The platform manages the full lifecycle of model development and execution: infrastructure for model research and development, discovery of required source data and scalable, auditable, reliable orchestration and execution of the model code.
+Join our dynamic and agile team responsible for building LGT's cutting-edge Platform for Orchestration of Quantitative Model Execution. 
+The platform manages the full lifecycle of model development and execution: infrastructure for model research and development, 
+discovery of required source data and scalable, auditable, reliable orchestration and execution of the model code.
 
-We are a small but highly effective team, geographically distributed across Hong Kong and Zurich. We are seeking talented senior-level Full Stack Engineers who are passionate about delivering tangible business value through fast release cycles and leveraging modern technologies. The role spans the full software development lifecycle, from ideation and architecture to deployment and optimization, all in a collaborative and supportive environment.
+We are a small but highly effective team, geographically distributed across Hong Kong and Zurich.
+We are seeking talented senior-level Full Stack Engineers who are passionate about delivering tangible business value through fast release cycles and leveraging modern technologies. 
+The role spans the full software development lifecycle, from ideation and architecture to deployment and optimization, all in a collaborative and supportive environment.
 
 Design, develop, and test resilient, stateless, scalable, and reusable services and APIs for backend and data processing. 
 Build a distributed REST-based microservice system for instrumentation, orchestration and execution of quantitative models. 

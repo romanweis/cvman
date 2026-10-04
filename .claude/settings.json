@@ -11,7 +11,8 @@
       "Bash(node scripts/exportCvPdf.mjs roman vontobel-en)",
       "Bash(node scripts/exportCoverLetterPdf.mjs roman vontobel-en)",
       "Bash(node scripts/exportCvPdf.mjs roman zkb-dev-de)",
-      "Bash(node scripts/exportCvPdf.mjs roman jb-senior-fullstack-en)"
+      "Bash(node scripts/exportCvPdf.mjs roman jb-senior-fullstack-en)",
+      "Bash(node scripts/exportCvText.mjs roman jb-senior-fullstack-en)"
     ]
   }
 }

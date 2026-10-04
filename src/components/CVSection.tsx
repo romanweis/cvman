@@ -14,7 +14,7 @@ export function CVSection({ title, children, accent = false }: CVSectionProps) {
           style={accent ? { backgroundColor: "var(--cv-accent)" } : undefined}
         />
         <h2
-          className="text-xs font-semibold uppercase tracking-[0.3em]"
+          className="text-xs font-semibold uppercase"
           style={{ color: "var(--cv-accent-strong)" }}
         >
           {title}

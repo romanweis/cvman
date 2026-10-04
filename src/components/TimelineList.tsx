@@ -30,7 +30,7 @@ export function TimelineList({ items }: TimelineListProps) {
                 {item.location ? ` · ${item.location}` : ""}
               </p>
             </div>
-            <span className="text-[10px] font-semibold uppercase tracking-[0.15em] text-slate-500">
+            <span className="text-[10px] font-semibold text-slate-500">
               {item.period}
             </span>
           </div>

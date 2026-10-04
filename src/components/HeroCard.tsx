@@ -13,13 +13,13 @@ export function HeroCard({ profile }: HeroCardProps) {
       <div className="grid gap-3 md:grid-cols-[auto,1fr] md:items-start">
         <div className="flex flex-col gap-2">
           <span
-            className="text-[10px] font-semibold uppercase tracking-[0.3em]"
+            className="text-[10px] font-semibold uppercase"
             style={{ color: "var(--cv-accent)" }}
           >
             {profile.availability}
           </span>
           <h1
-            className="text-2xl font-semibold uppercase tracking-[0.1em]"
+            className="text-2xl font-semibold"
             style={{ color: "var(--cv-accent-strong)" }}
           >
             {profile.name}

@@ -4,7 +4,7 @@ type BadgeListProps = {
 
 export function BadgeList({ items }: BadgeListProps) {
   return (
-    <ul className="flex flex-wrap gap-x-3 gap-y-1 text-[11px] uppercase tracking-[0.12em] text-slate-600">
+    <ul className="flex flex-wrap gap-x-3 gap-y-1 text-[11px] uppercase text-slate-600">
       {items.map((item, index) => (
         <li key={item} className="flex items-center gap-2 whitespace-nowrap">
           {index > 0 && <span aria-hidden>•</span>}

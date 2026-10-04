@@ -172,7 +172,7 @@ export const jbSeniorFullStackEnCv: CvProfile = {
       ],
     },
     {
-      role: ".NET Full Stack Engineer",
+      role: "Full Stack Engineer .NET",
       company: "Zühlke Group",
       location: "Schlieren",
       period: "May 2017 - Sep. 2019",
@@ -192,7 +192,7 @@ export const jbSeniorFullStackEnCv: CvProfile = {
       ],
     },
     {
-      role: "Aerodynamics Engineer GT Compressor",
+      role: "Aerodynamics Engineer (GT Compressor)",
       company: "Ansaldo Energia (formerly Alstom Power)",
       location: "Baden",
       period: "Oct. 2012 - Dec. 2016",
