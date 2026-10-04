@@ -1,1 +1,95 @@
 @import "tailwindcss";
+
+:root {
+	color: #0f172a;
+	font-family: "Inter", "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+	background-color: #ffffff;
+	text-rendering: optimizeLegibility;
+	line-height: 1.45;
+	font-size: 14px;
+}
+
+body {
+	margin: 0;
+	min-height: 100vh;
+	background: #ffffff;
+	color: inherit;
+}
+
+#root {
+	min-height: 100vh;
+}
+
+* {
+	-webkit-print-color-adjust: exact;
+	print-color-adjust: exact;
+}
+
+.cv-page {
+	display: flex;
+	justify-content: center;
+}
+
+.cv-grid {
+	width: 100%;
+}
+
+@page {
+	size: A4;
+	margin: 14mm;
+}
+
+@media print {
+	body {
+		background: #ffffff !important;
+		font-size: 11px;
+	}
+
+	:root {
+		font-size: 11px;
+	}
+
+	#root {
+		min-height: auto;
+	}
+
+	.cv-page {
+		margin: 0 auto;
+		max-width: 188mm;
+		padding: 0;
+	}
+
+	.cv-grid {
+		gap: 8mm;
+		padding: 0;
+		grid-template-columns: 118mm 60mm;
+	}
+
+	.cv-grid > :first-child {
+		grid-column: 1 / -1;
+	}
+
+	.cv-main > * + * {
+		margin-top: 10mm !important;
+	}
+
+	.cv-sidebar {
+		margin: 0;
+	}
+
+	.cv-hero {
+		break-after: avoid;
+		page-break-after: avoid;
+	}
+
+	.cv-hero header {
+		break-inside: avoid;
+		page-break-inside: avoid;
+	}
+
+	a,
+	span,
+	strong {
+		text-decoration: none !important;
+	}
+}

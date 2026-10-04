@@ -1,0 +1,42 @@
+Are you ready to shape how AI is built and run across Microsoft 365 and Azure in a regulated banking environment?
+
+Join our Data & AI Solutions Hub at Vontobel, where we’re building an enterprise-grade agentic engineering platform using Microsoft AI Foundry, Microsoft Fabric, and Microsoft Power Platform. You’ll work end-to-end across low-code, pro-code, and hybrid setups—depending on the use case—while ensuring security, governance, and operational excellence. Located in Zurich, this is your chance to make a difference in a dynamic and supportive environment.
+What would your role be?
+Build and operate a secure, enterprise-grade agentic engineering platform across the Microsoft AI Stack (Microsoft 365 + Azure).
+
+Establish reusable platform capabilities for internal teams, including standardized development environments, secure identity and networking patterns, governance guardrails, and production-ready observability.
+
+Enable teams to deliver and scale agentic AI solutions efficiently in a regulated banking environment, using Microsoft AI Foundry, Fabric, and Power Platform.
+
+Shape how teams build, deploy, and run agentic AI solutions across low-code and pro-code lifecycles, and contribute to Microsoft-aligned roadmap discussions (e.g., Foundry IQ sessions).
+
+What are we looking for?
+Degree in computer science or a comparable qualification, ideally with at least 5 years of professional experience in platform engineering, application engineering, or AI/ML engineering.
+
+Hands-on experience across the Microsoft AI Stack (Microsoft 365 + Azure), with strong depth in Microsoft AI Foundry, Microsoft Fabric, and Microsoft Power Platform (Power Automate, Copilot Studio).
+
+Strong communication and stakeholder management skills, including the ability to present complex technical topics to non-technical audiences.
+
+Strong DevOps/MLOps skills (CI/CD, infrastructure as code, automated testing, monitoring/alerting) to run AI platform capabilities reliably in production.
+
+Fluency in English is required; German is a plus. 
+
+What do we offer?
+Top Zurich location with collaboration spaces (including rooftop terraces) and free lunch. 
+
+Friendly, diverse team in an open-office space. 
+
+All the latest technology to help you excel and advance. 
+
+Agile environment in how we think, the way we work and our trust for each other. 
+
+Flat hierarchy with collaboration at all levels. 
+
+Campus feeling and a collaborative spirit. 
+
+Why Vontobel? 
+At Vontobel, you are building better futures for our clients and society, as well as for yourself. As a family-owned and publicly listed company with over 2,000 professionals based in 28 locations globally and headquartered in Zurich, we’re committed to long-term thinking and sustainability. 
+
+Our diverse team values unique perspectives, and we hire individuals determined to deliver in a dynamic and changing world. Even if you don’t meet all the criteria, we encourage you to apply if you’re enthusiastic about the role. 
+
+Do you want to be Vontobel? 

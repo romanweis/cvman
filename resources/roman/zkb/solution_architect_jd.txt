@@ -1,0 +1,40 @@
+About the job
+80% - 100% | IT / Business Engineering | Zürich | Berufserfahrene
+
+Gestalte mit uns die Zukunft des eBankings!
+
+Bei uns in der IT der Zürcher Kantonalbank entwickeln wir mit über 1'000 Kolleginnen und Kollegen die Technologie von morgen und das im Herzen von Zürich.
+
+Für unser neu gegründetes Team im Portfolio Client Channels suchen wir eine engagierte, tatkräftige und visionäre Persönlichkeit als Solution Architect welcher die Plattform unserer Kundenschnittstelle weiterentwickelt. Unser eBanking besteht aus mehreren Services, die sich in die Plattform integrieren. Unsere Plattform wird als moderne Software-Eigenentwicklung mit «state of the art»-Technologien entwickelt und betrieben.
+
+In dieser Position wirst du die Zukunft unserer Plattform massgeblich mitgestalten, konzipieren und gemeinsam mit anderen Teams weiterentwickeln. Wir setzen auf moderne Architekturansätze wie z.B. Microservices, Resilienz, Domain Driven Design, Sicherheit, Monitoring, Performance, API-Gateway, und vieles mehr.
+
+Du schätzt die Arbeit im Team, schreibst Selbst-organisation gross und möchtest mit Engagement und Herzblut gemeinsam mit uns die Plattform unseres eBankings weiter professionalisieren? Dann lass uns die Suche beenden und etwas Neues beginnen.
+
+Deine Aufgaben
+
+Konzipieren und Umsetzen von Plattform Features
+Automatisieren der Erhebung von wichtigen Kennzahlen zur Einhaltung der Qualität, Performance und Verfügbarkeit
+Weiterentwickeln von Architekturvorgaben im Hinblick auf die Anforderungen der Kundenschnittstelle
+Prüfen von relevanten Architekturkonzepten der Entwicklungsteams
+Aufbauen und Organisieren von Community Meetings zu Themen der Kundenschnittstelle, wie z.B. Architektur oder Qualität
+Sicherstellen einer qualitativ hochwertigen und stabilen Kundenschnittstelle
+Beratung und Enabling von Feature-Teams im Hinblick auf die Plattform Features 
+
+Dein Profil
+
+Abgeschlossenes Studium (Uni, FH, HF) im Bereich (Wirtschafts-) Informatik oder vergleichbares
+Mehrjährige Erfahrung in der Softwarearchitektur von Internetexponierten Services
+Kommunikationstalent mit Verhandlungsstärke, sicherem Auftreten und Überzeugungskraft
+Team- und kundenorientierte Persönlichkeit
+Sehr gute Kenntnisse in der Java- und Angular-Entwicklung sowie mit Spring, JPA, Oracle und Postgre
+Hohe Eigenmotivation, -verantwortung und Sozialkompetenz
+Sehr gute Deutschkenntnisse
+
+Unser Angebot
+
+Freiraum für autonome Entscheidungen
+Eine Kultur der stetigen (Weiter-) Entwicklung – technisch, fachlich und persönlich
+Kollegiale Zusammenarbeit mit modernen Leadership Grundsätzen
+Moderner Arbeitsplatz im quirligen Kreis 5 mit sehr guter Verkehrsanbindung (Bahnhof Hardbrücke)
+Attraktives Gesamtpaket, welches neben dem attraktiven Grundsalär und einer variablen Vergütung viele Benefits und Vergünstigungen bietet – von A wie Altersvorsorge bis Z wie ZVV-Bonuspass

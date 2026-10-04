@@ -1,0 +1,40 @@
+Principal Engineer
+
+Hybrid in Zurich
+
+250k package Circa 180-190K CHF + bonus + LTIP
+
+
+Principal Engineer – Would you like to be part of a brand-new engineering group focused on redefining how people move through next generation digital experiences? This is a rare opportunity to join an internal innovation incubator exploring AI, AR, mobile, web and emerging technologies, with full backing from an engineering led leadership team. They are looking for a Principal Engineer operating at Head level to lead technical direction across multiple greenfield projects, guide a small cross functional team, and push the boundaries of what the company can deliver across its digital ecosystem.
+
+This is a senior hands-on technical leadership role with huge influence, high visibility and the chance to shape the future tech landscape of a world class brand.
+
+
+The Mission
+
+Own technical strategy and execution across multiple forward looking initiatives
+Navigate ambiguity, provide clarity and lead decision making in complex problem spaces
+Explore untapped technology areas and feed learnings back into the wider organisation
+Work alongside product, design, engineering leadership and strategy teams
+Guide technical standards across system design, scalability and code quality
+Lead, mentor and grow a small cross functional engineering team Drive productivity improvement through modern tools including AI coding agents
+Act as the main technical point of contact across teams and stakeholders
+
+
+Ideal requirements:
+
+Degree in Computer Science or similar
+Broad engineering background across backend and frontend
+Deep system architecture experience and ability to design large scale systems from scratch
+Strong experience in fast paced, experimentation driven environments
+Hands on engineering ability combined with long term technical thinking
+Proven background as a Principal Engineer or Systems Architect
+Strong communication skills and ability to influence at all levels
+Experience with rapid testing, experimentation and controlled production rollouts
+Confident with modern stacks including one OOP language or TypeScript, NestJS, Postgres, AWS or GCP, GraphQL and Kafka Streams
+Experience with LLM driven development, RAG pipelines and Generative AI toolchains
+Exposure to Agentic AI and MCP is a standout plus
+Experience working with vendors and external technology partners
+
+
+If you are interested in exploring a senior technical leadership role with massive scope and a genuine opportunity to shape an entire digital vision from the ground up, feel free to reach out for a chat.

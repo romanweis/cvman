@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:brandfetch.com)",
+      "Bash(curl -sL \"https://www.zkb.ch/\" -o /tmp/zkb.html)",
+      "Read(//tmp/**)",
+      "Bash(curl -sL \"https://www.zkb.ch/\" -o C:/Users/roman/AppData/Local/Temp/zkb.html)",
+      "Read(//c/Users/roman/AppData/Local/Temp/**)",
+      "Bash(curl -sL \"https://www.zkb.ch/etc.clientlibs/zkb/clientlibs/all/clientlib-zkb-ui.1775807991107.min.css\" -o C:/Users/roman/AppData/Local/Temp/zkb-ui.css)",
+      "Bash(curl -sL \"https://www.zkb.ch/etc.clientlibs/zkb/clientlibs/all/clientlib-site.1775807991107.min.css\" -o C:/Users/roman/AppData/Local/Temp/zkb-site.css)",
+      "Bash(node scripts/exportCvPdf.mjs roman vontobel-en)",
+      "Bash(node scripts/exportCoverLetterPdf.mjs roman vontobel-en)",
+      "Bash(node scripts/exportCvPdf.mjs roman zkb-dev-de)",
+      "Bash(node scripts/exportCvPdf.mjs roman jb-senior-fullstack-en)",
+      "Bash(node scripts/exportCvText.mjs roman jb-senior-fullstack-en)"
+    ]
+  }
+}

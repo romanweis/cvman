@@ -1,0 +1,43 @@
+import type { CvProfile } from "../types/cv";
+
+type HeroCardProps = {
+  profile: CvProfile;
+};
+
+export function HeroCard({ profile }: HeroCardProps) {
+  return (
+    <header
+      className="cv-hero border-b-2 pb-4"
+      style={{ borderColor: "var(--cv-accent)" }}
+    >
+      <div className="grid gap-3 md:grid-cols-[auto,1fr] md:items-start">
+        <div className="flex flex-col gap-2">
+          <span
+            className="text-[10px] font-semibold uppercase"
+            style={{ color: "var(--cv-accent)" }}
+          >
+            {profile.availability}
+          </span>
+          <h1
+            className="text-2xl font-semibold"
+            style={{ color: "var(--cv-accent-strong)" }}
+          >
+            {profile.name}
+          </h1>
+          <p
+            className="text-[12px] font-medium"
+            style={{ color: "var(--cv-accent)" }}
+          >
+            {profile.title}
+          </p>
+          <p className="text-[10px] font-medium text-slate-600">
+            {profile.location}
+          </p>
+        </div>
+        <div className="space-y-2.5 text-[11px] leading-relaxed text-slate-700">
+          <p>{profile.summary}</p>
+        </div>
+      </div>
+    </header>
+  );
+}
